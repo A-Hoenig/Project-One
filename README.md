@@ -201,6 +201,7 @@ Acknowlegements to the original photographer listed below:
 | portrait18.jpg | pexels | Spencer Selover |
 | portrait19.jpg | pexels |  Gustavo Santana|
 | portrait20.jpg | pexels | Vitaly Gorbachev |
+| photographer.jpg | pexels | Rockerzzz |
 
 
 
@@ -218,7 +219,7 @@ Project Link: [https://github.com/A-Hoenig/Project-One/tree/main](https://github
 <!-- TESTING -->
 ## Testing
 
-BROWSER TESTING
+### Browser Testing
 | Browser         | Layout | Functionality |
 | :--------------- | :--: | :--: |
 | Chrome          | x | x |
@@ -227,7 +228,7 @@ BROWSER TESTING
 | Safari          | x | x |
 | IE              | Obsolete |
 
-MANUAL TESTING
+### Manual Testing
 | Feature        | Expect | Action | Result |
 | -------------- | :------: | :------: | :------: |
 |                |        |        |        |
@@ -236,12 +237,15 @@ MANUAL TESTING
 |                |        |        |        |
 |                |        |        |        |
 
-VALIDATOR TESTING
+### Validator Testing
 
-HTML
+#### HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-CSS
+
+#### CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+### Unfixed Bugs
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
