@@ -184,7 +184,14 @@ All images are sourced[https://www.pexels.com/](Pexels.com) and are license free
 <br>
 Acknowlegements to the original photographer listed below:
 
-
+| IMAGE CREDITS |
+| ------------- |
+| Image Name    | License | Originator |
+|               | pexels |  |
+|               | pexels |  |
+|               | pexels |  |
+|               | pexels |  |
+|               | pexels |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,7 +200,7 @@ Acknowlegements to the original photographer listed below:
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Alex Hönig -  LimeyDeveloper@pm.me
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
@@ -202,19 +209,17 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- TESTING -->
 ## Testing
 
-| BROWSER TESTING |          |
-| --------------- | -------- |
-|                 |          |  |
-| Browser         | Layout   | Functionality |
-| Chrome          |          |  |
-| Edge            |          |  |
-| Firefox         |          |  |
-| Safari          |          |  |
+| BROWSER TESTING |
+| --------------- |
+| Browser         | Layout | Functionality |
+| Chrome          |  |  |
+| Edge            |  |  |
+| Firefox         |  |  |
+| Safari          |  |  |
 | IE              | Obsolete |
 
 | MANUAL TESTING |        |        |        |
 | -------------- | ------ | ------ | ------ |
-|                |        |        |        |
 | Feature        | Expect | Action | Result |
 |                |        |        |        |
 |                |        |        |        |
