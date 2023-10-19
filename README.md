@@ -12,6 +12,7 @@
 
   <p align="center">
     Photographer's Website
+    <br>
     <br />
     <a href="https://github.com/A-Hoenig/Project-One/"><strong>Explore the docs »</strong></a>
     <br />
@@ -57,7 +58,20 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+The aim of this project was to develop a responsive and functional website of 3 or more pages using HTML and CSS only.
+As a fundamental concept I chose a Photographer's website that showcases his/her best work and lets users contact them for hire.
+
+The design objective was to maximize screen realestate to let the pictures "speak for themselves" while at the same time offering known and established navigational items to guide the user to the usual contact links (social media, contact form, etc)
+
+The landing page will serve as the central hub to navigate to other areas. These are:
+
+<ol>
+  <li>Home / Landing page showcasing primary work</li>
+  <li>About section underneath hero image to introduce photographer</li>
+  <li>Gallery Page to show additional work</li>
+  <li>Testimonials page to show previous satisfied customers</li>
+  <li>Contact page / form to allow contacting the photographer</li>
+</ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,18 +79,18 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-
+* [https://www.gitpod.io/](GitPod)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Accessing the Site
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The Finished site is hosted under gitpages under:
+<br>
+<a href="">Click Here</a>
 
 ### Prerequisites
 
@@ -266,5 +280,5 @@ MANUAL TESTING
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
-
+[GitPod-url]: https://www.gitpod.io/
 
