@@ -24,8 +24,6 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -53,8 +51,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -156,6 +152,8 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png) 
+<br>
 This project is license free and part of Code Institute Full Stack Developer Course
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -167,9 +165,8 @@ All images are sourced[https://www.pexels.com/](Pexels.com) and are license free
 <br>
 Acknowlegements to the original photographer listed below:
 
-| IMAGE CREDITS | | |
-| ------------- | :---: | :---: |
 | Image Name    | License | Originator |
+| ------------- | :---: | :---: |
 |               | pexels |  |
 |               | pexels |  |
 |               | pexels |  |
@@ -177,8 +174,6 @@ Acknowlegements to the original photographer listed below:
 |               | pexels |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -192,18 +187,18 @@ Project Link: [https://github.com/A-Hoenig/Project-One/tree/main](https://github
 <!-- TESTING -->
 ## Testing
 
-| BROWSER TESTING | | |
-| :--------------- | :--: | :--: |
+BROWSER TESTING
 | Browser         | Layout | Functionality |
+| :--------------- | :--: | :--: |
 | Chrome          | x | x |
 | Edge            | x | x |
 | Firefox         | x | x |
 | Safari          | x | x |
 | IE              | Obsolete |
 
-| MANUAL TESTING |        |        |        |
-| -------------- | :------: | :------: | :------: |
+MANUAL TESTING
 | Feature        | Expect | Action | Result |
+| -------------- | :------: | :------: | :------: |
 |                |        |        |        |
 |                |        |        |        |
 |                |        |        |        |
@@ -212,8 +207,8 @@ Project Link: [https://github.com/A-Hoenig/Project-One/tree/main](https://github
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- acknowledgements -->
-## acknowledgements
+<!-- Acknowledgements -->
+## Acknowledgements
 
 * []()
 * []()
