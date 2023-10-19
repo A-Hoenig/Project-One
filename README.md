@@ -161,17 +161,34 @@ This project is license free and part of Code Institute Full Stack Developer Cou
 <!-- IMAGE-CREDITS -->
 ## Image Credits
 
-All images are sourced[https://www.pexels.com/](Pexels.com) and are license free.
+All images are sourced [https://www.pexels.com/](Pexels.com) and are license free.
 <br>
 Acknowlegements to the original photographer listed below:
 
 | Image Name    | License | Originator |
-| ------------- | :---: | :---: |
-|               | pexels |  |
-|               | pexels |  |
-|               | pexels |  |
-|               | pexels |  |
-|               | pexels |  |
+| ------------- | :---: | :--- |
+| portrait1.jpg | pexels | Ali Pazani |
+| portrait2.jpg | pexels | Ali Pazani |
+| portrait3.jpg | pexels | Ali Pazani |
+| portrait4.jpg | pexels | Arsham Haghani |
+| portrait5.jpg | pexels | Bruno Salvadori |
+| portrait6.jpg | pexels | Collis |
+| portrait7.jpg | pexels | Eddson Lens |
+| portrait8.jpg | pexels | George Desipris |
+| portrait9.jpg | pexels | Guilherme Almeida |
+| portrait10.jpg | pexels | Gusher Gill |
+| portrait11.jpg | pexels | Hywel Jones |
+| portrait12.jpg | pexels | Italo Melo |
+| portrait13.jpg | pexels | Matheus Bartelli |
+| portrait14.jpg | pexels | Moose Photos |
+| portrait15.jpg | pexels | Olena Bohovyk |
+| portrait16.jpg | pexels | Pixabay |
+| portrait17.jpg | pexels | Samad Ismayilov |
+| portrait18.jpg | pexels | Spencer Selover |
+| portrait19.jpg | pexels |  Gustavo Santana|
+| portrait20.jpg | pexels | Vitaly Gorbachev |
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
