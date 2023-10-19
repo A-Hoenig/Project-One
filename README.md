@@ -1,44 +1,26 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/A-Hoenig/Project-One">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/favicon/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">CODE INSTITUTE PROJECT ONE</h3>
 
   <p align="center">
-    project_description
+    Photographer's Website
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/A-Hoenig/Project-One/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/A-Hoenig/Project-One/">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/A-Hoenig/Project-One/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/A-Hoenig/Project-One/issues">Request Feature</a>
   </p>
 </div>
 
@@ -65,6 +47,7 @@
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
+    <li><a href="#image-credits">Image Credits</a></li>
     <li><a href="#testing">Testing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -173,19 +156,19 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+This project is license free and part of Code Institute Full Stack Developer Course
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- IMAGE CREDITS -->
+<!-- IMAGE-CREDITS -->
 ## Image Credits
 
 All images are sourced[https://www.pexels.com/](Pexels.com) and are license free.
 <br>
 Acknowlegements to the original photographer listed below:
 
-| IMAGE CREDITS |
-| ------------- |
+| IMAGE CREDITS | | |
+| ------------- | :---: | :---: |
 | Image Name    | License | Originator |
 |               | pexels |  |
 |               | pexels |  |
@@ -202,24 +185,24 @@ Acknowlegements to the original photographer listed below:
 
 Alex Hönig -  LimeyDeveloper@pm.me
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/A-Hoenig/Project-One/tree/main](https://github.com/A-Hoenig/Project-One/tree/main)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- TESTING -->
 ## Testing
 
-| BROWSER TESTING |
-| --------------- |
+| BROWSER TESTING | | |
+| :--------------- | :--: | :--: |
 | Browser         | Layout | Functionality |
-| Chrome          |  |  |
-| Edge            |  |  |
-| Firefox         |  |  |
-| Safari          |  |  |
+| Chrome          | x | x |
+| Edge            | x | x |
+| Firefox         | x | x |
+| Safari          | x | x |
 | IE              | Obsolete |
 
 | MANUAL TESTING |        |        |        |
-| -------------- | ------ | ------ | ------ |
+| -------------- | :------: | :------: | :------: |
 | Feature        | Expect | Action | Result |
 |                |        |        |        |
 |                |        |        |        |
@@ -229,8 +212,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- acknowledgements -->
+## acknowledgements
 
 * []()
 * []()
