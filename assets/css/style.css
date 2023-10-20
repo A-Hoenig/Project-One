@@ -41,6 +41,7 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
+    font-size: 2.5em;
 }
 
 header #contact-large {
@@ -72,6 +73,7 @@ nav {
     border-style: solid;
     border-color: #fafafa;
     display: none; /* hide menu until user clicks on burger icon*/
+    font-size: 0.5em;
 }
 
 /* show the link menu when checkbox is true */
@@ -83,6 +85,11 @@ nav {
 #menu-toggle {
     display: none;
 }
+
+.menu-toggle-label {
+    font-size: 2.5em;
+}
+
 
 /* ######################### NAV BAR ######################## */
 
