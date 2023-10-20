@@ -10,8 +10,17 @@
     box-sizing: border-box;
 }
 
-/* #################### TOP LEVEL STYLES #################### */
 
+
+/* #################### TOP LEVEL STYLES #################### */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #fafafa;
+    font-family: "Montserrat", sans-serif;
+
+}
 /* ######################### HEADER ######################### */
 header {
     background-color: antiquewhite;
@@ -22,6 +31,7 @@ header {
 /* ###################### MAIN SECTIONS ##################### */
 main {
     background-color: lightblue;
+    flex: 1 0 auto; /* ensure full page and footer at bottom*/
 }
 
 /* ######################### FOOTER ######################### */
