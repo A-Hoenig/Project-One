@@ -23,6 +23,7 @@ body {
 
 }
 /* ######################### HEADER ######################### */
+/* set basic header style */
 header {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 0 1rem;
@@ -38,25 +39,29 @@ header {
     
 }
 
+/* remove link underlines and link color default */
 header a {
     text-decoration: none;
     color: inherit;
     font-size: 2.5em;
 }
-
+/* hide large contact me button on phone displays */
 header #contact-large {
     display: none;
 }
-
+/* ######################### NAV BAR ######################## */
+/* remove bullet points */
 #links {
        list-style-type: none;
 }
 
+/* space out menu items*/
 #links li {
     margin-top: 1em;
     padding-left: 1em;
 }
 
+/* highlight the current page selected in menu bold */
 .selected {
     font-weight: bold;
 }
@@ -86,21 +91,52 @@ nav {
     display: none;
 }
 
+/* set new fontsize for burger icon*/
 .menu-toggle-label {
     font-size: 2.5em;
 }
 
 
-/* ######################### NAV BAR ######################## */
+
 
 /* ###################### MAIN SECTIONS ##################### */
+/* ensure full page and footer at bottom */
 main {
     background-color: lightblue;
-    flex: 1 0 auto; /* ensure full page and footer at bottom*/
+    flex: 1 0 auto; 
+    
 }
+
+main h1 {
+    font-size: 1em;
+}
+
+#landing {
+   display: flex;
+   flex-direction: column;
+   justify-content:flex-end;
+
+    background-color: green;
+}
+
+#about {
+    background-color: grey;
+ }
 
 #signature {
     font-family: "Freehand", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    /* height: 80vh; */
+    display: fixed;
+    margin-top: 100%;
+    margin-bottom: 100%;
+    
+}
+
+#arrow-down {
+    /* background-color: green; */
+    /* margin-top: 150px; */
     text-align: center;
 }
 
