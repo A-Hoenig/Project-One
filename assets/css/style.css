@@ -1,25 +1,63 @@
-/* Google fonts import */
+/* ###################### GOOGLE FONTS ##################### */
 
 
-/* Global settings for whole webpage */
+/* ######################### GLOBAL ######################## */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Top level styles */
+/* #################### TOP LEVEL STYLES #################### */
 
+header a {
+    color: #0060B6;
+    text-decoration: none;
+}
 
 
 
 /* ######################### HEADER ######################### */
+header {
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
 
 /* ######################### NAV BAR ######################## */
+    /* hide large contact button(span) on small screen */
+    #large-contact {
+        display: none;
+    }
+
+    #menu {
+        text-decoration: none;
+    }
+    #contact-button {
+       text-decoration: none;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
 
 /* ###################### MAIN SECTIONS ##################### */
 
+    #landing {
+        background-color: grey;
+    }
+
+    #about {
+        background-color: lightblue;
+    }
+
+    #arrow-down {
+        color: #fafafa;
+    }
+
 /* ######################### FOOTER ######################### */
+footer {
+    background-color: rgba(0, 0, 0, 0.6)
+}
 
 /* ###################### GALLERY PAGE ###################### */
 
