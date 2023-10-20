@@ -32,12 +32,19 @@ header {
     border-style: solid;
     border-color: #fafafa;
     height:8%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
     
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+header #contact-large {
+    display: none;
 }
 
 #links {
@@ -61,10 +68,20 @@ nav {
     top: 100%;
     left: 0;
     padding-top: 2px;
-    padding-bottom: 5px;
+    padding-bottom: 30px;
     border-style: solid;
     border-color: #fafafa;
     display: none; /* hide menu until user clicks on burger icon*/
+}
+
+/* show the link menu when checkbox is true */
+#menu-toggle:checked~nav {
+    display: block;
+}
+
+/*hide the checkbox square*/
+#menu-toggle {
+    display: none;
 }
 
 /* ######################### NAV BAR ######################## */
