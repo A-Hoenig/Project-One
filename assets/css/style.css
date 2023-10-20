@@ -23,8 +23,16 @@ body {
 }
 /* ######################### HEADER ######################### */
 header {
-    background-color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 90;
+    width: 100%;
+    border-style: solid;
+    border-color: #fafafa;
 }
+
+
 
 /* ######################### NAV BAR ######################## */
 
@@ -32,6 +40,11 @@ header {
 main {
     background-color: lightblue;
     flex: 1 0 auto; /* ensure full page and footer at bottom*/
+}
+
+#signature {
+    font-family: "Freehand", sans-serif;
+    text-align: center;
 }
 
 /* ######################### FOOTER ######################### */
