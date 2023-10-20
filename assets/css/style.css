@@ -12,6 +12,7 @@
 
 
 
+
 /* #################### TOP LEVEL STYLES #################### */
 body {
     min-height: 100vh;
@@ -30,6 +31,24 @@ header {
     width: 100%;
     border-style: solid;
     border-color: #fafafa;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#links {
+       list-style-type: none;
+}
+
+#links li {
+    margin-top: 1em;
+}
+
+.selected {
+    font-weight: bold;
 }
 
 
