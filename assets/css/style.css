@@ -31,6 +31,7 @@ header {
     width: 100%;
     border-style: solid;
     border-color: #fafafa;
+    height:8%;
     
 }
 
@@ -45,13 +46,25 @@ header a {
 
 #links li {
     margin-top: 1em;
+    padding-left: 1em;
 }
 
 .selected {
     font-weight: bold;
 }
 
-
+/* pop up menu feature*/
+nav {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 150px;
+    top:65px;
+    left: 0;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-color: #fafafa;
+}
 
 /* ######################### NAV BAR ######################## */
 
