@@ -3,86 +3,31 @@
 
 
 /* ######################### GLOBAL ######################## */
+/* Overide default*/
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 /* #################### TOP LEVEL STYLES #################### */
 
-header a {
-    color: #fafafa;
-    text-decoration: none;
-}
-
-
-
 /* ######################### HEADER ######################### */
 header {
-    background-color: rgba(0, 0, 0, 0.6)
+    background-color: antiquewhite;
 }
-
 
 /* ######################### NAV BAR ######################## */
-/* hide large contact button(span) on small screen */
-#large-contact {
-    display: none;
-}
-
-#menu {
-    text-decoration: none;
-}
-
-#contact-button {
-    text-decoration: none;
-}
-
-#menu-toggle {
-    display: none;
-}
-
-.menu-toggle-label {
-    color: #fafafa;
-}
 
 /* ###################### MAIN SECTIONS ##################### */
-
 main {
-    font-family: 'Montserrat', sans-serif;
-    /* min-height: 100vh; */
-}
-
-#landing{
-    background: url("../images/portrait17.jpg") no-repeat center center/cover;
-}
-
-#signature {
-    color: #fafafa;
-    text-decoration: none;
-    font-family: 'Freehand', sans-serif;
-    text-align: center;
-}
-
-.pic-width {
-   
-}
-
-#landing {
-    background-color: grey;
-}
-
-#about {
     background-color: lightblue;
 }
 
-#arrow-down {
-    color: #fafafa;
-}
-
 /* ######################### FOOTER ######################### */
+
 footer {
-    background-color: rgba(0, 0, 0, 0.6)
+    background-color: orange;
 }
 
 /* ###################### GALLERY PAGE ###################### */
