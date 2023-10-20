@@ -1,5 +1,5 @@
 /* ###################### GOOGLE FONTS ##################### */
-  @import url('https://fonts.googleapis.com/css2?family=Freehand&family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 
 /* ######################### GLOBAL ######################## */
@@ -25,48 +25,60 @@ header {
 
 
 /* ######################### NAV BAR ######################## */
-    /* hide large contact button(span) on small screen */
-    #large-contact {
-        display: none;
-    }
+/* hide large contact button(span) on small screen */
+#large-contact {
+    display: none;
+}
 
-    #menu {
-        text-decoration: none;
-    }
-    #contact-button {
-       text-decoration: none;
-    }
+#menu {
+    text-decoration: none;
+}
 
-    #menu-toggle {
-        display: none;
-    }
+#contact-button {
+    text-decoration: none;
+}
 
-    .menu-toggle-label {
-        color: #fafafa;
-    }
+#menu-toggle {
+    display: none;
+}
+
+.menu-toggle-label {
+    color: #fafafa;
+}
 
 /* ###################### MAIN SECTIONS ##################### */
 
 main {
     font-family: 'Montserrat', sans-serif;
-}    
+    /* min-height: 100vh; */
+}
+
+#landing{
+    background: url("../images/portrait17.jpg") no-repeat center center/cover;
+}
+
 #signature {
     color: #fafafa;
     text-decoration: none;
     font-family: 'Freehand', sans-serif;
+    text-align: center;
+}
+
+.pic-width {
+   
 }
 
 #landing {
-        background-color: grey;
-    }
+    background-color: grey;
+}
 
-    #about {
-        background-color: lightblue;
-    }
+#about {
+    background-color: lightblue;
+}
 
-    #arrow-down {
-        color: #fafafa;
-    }
+#arrow-down {
+    color: #fafafa;
+}
 
 /* ######################### FOOTER ######################### */
 footer {
