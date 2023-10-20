@@ -58,12 +58,13 @@ nav {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
     width: 150px;
-    top:65px;
+    top: 100%;
     left: 0;
     padding-top: 2px;
     padding-bottom: 5px;
     border-style: solid;
     border-color: #fafafa;
+    display: none; /* hide menu until user clicks on burger icon*/
 }
 
 /* ######################### NAV BAR ######################## */
