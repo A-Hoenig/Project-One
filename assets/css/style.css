@@ -27,9 +27,9 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 0 1rem;
     position: fixed;
-    z-index: 90;
+    z-index: 99;
     width: 100%;
-    border-style: solid;
+    /* border-style: solid; */
     border-color: #fafafa;
     height: 8%;
     display: flex;
@@ -38,12 +38,11 @@ header {
 
 }
 
-
 /* remove link underlines and link color default */
 header a {
     text-decoration: none;
     color: inherit;
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 /* hide large contact me button on phone displays */
@@ -96,7 +95,7 @@ nav {
 
 /* set new fontsize for burger icon*/
 .menu-toggle-label {
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 /* ###################### MAIN SECTIONS ##################### */
@@ -111,12 +110,15 @@ main h1 {
     font-family: "Freehand", sans-serif;
     text-decoration: none;
     left: 50vw;
-   
-} 
+}
 
 #signature {
-    top: 120px;
     position: sticky;
+    z-index: 90;
+    
+    width: 100%;
+    text-align: center;
+    font-size: 0.5em;
 }
 
 .sections {
@@ -127,14 +129,26 @@ main h1 {
 /* Main landing gallery picture section */
 #landing-gallery {
     text-align: center;
+    top: 0;
     width: 100%;
     background-color: purple;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
 }
+
 
 /* About section*/
 #about {
     width: 100%;
     background-color: green;
+    position: relative;
+    top: 100%;
+    
+}
+
+#bio-photo {
+    margin: 20px;
 }
 
 #arrow-down {
@@ -143,10 +157,8 @@ main h1 {
 
 /* ######################### FOOTER ######################### */
 
-
-
 #external-links {
-
+    
     display: flex;
     justify-content: space-around;
 }
