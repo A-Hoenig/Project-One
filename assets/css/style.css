@@ -103,7 +103,7 @@ nav {
 /* ensure full page and footer at bottom */
 main {
     background-color: lightblue;
-    flex: 1 0 auto; 
+    margin-top: 100px;
     
 }
 
@@ -111,27 +111,72 @@ main h1 {
     font-size: 1em;
 }
 
-#landing {
-   display: flex;
-   flex-direction: column;
-   justify-content:flex-end;
 
-    background-color: green;
+.hero-pictures {
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-end;
 }
+
+#hero-pic1 {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    inset: 0;
+    animation: slide-show 12s infinite;
+}
+
+#hero-pic2 {
+    animation-delay: 4s;
+}
+
+#hero-pic3 {
+    animation-delay: 8s;
+}
+
+.slide img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@keyframes slide-show{ 
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    20%,
+    30% {
+        opacity: 1;
+        scale: 1.03;
+    }
+    50% {
+        opacity: 0;
+    }
+
+
+
+
+
 
 #about {
     background-color: grey;
  }
 
+
 #signature {
     font-family: "Freehand", sans-serif;
     text-decoration: none;
     text-align: center;
-    /* height: 80vh; */
-    display: fixed;
-    margin-top: 100%;
-    margin-bottom: 100%;
     
+    
+    
+    position: absolute;
 }
 
 #arrow-down {
