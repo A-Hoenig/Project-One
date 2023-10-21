@@ -126,13 +126,23 @@ main {
 
 /* Main landing gallery picture section */
 #landing-gallery {
+    
+    background: url("../images/portrait17.jpg") no-repeat center center/cover;
     text-align: center;
     top: 0;
     width: 100%;
-    background-color: purple;
+    background-color: black;
     margin-top: 0;
     padding: 0;
     position: relative;
+}
+
+#arrow-down {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
 }
 
 /* About section*/
