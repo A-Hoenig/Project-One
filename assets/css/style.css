@@ -149,13 +149,21 @@ main {
 #about {
     width: 100%;
     background-color: green;
-    position: relative;
+    position: absolute;
+   
     top: 100%;
     
 }
 
 #bio-photo {
+    position: absolute;
+    top: 20px;
     margin: 20px;
+    width: 80px;
+}
+
+#bio-text {
+    position: inherit;
 }
 
 #arrow-down {
