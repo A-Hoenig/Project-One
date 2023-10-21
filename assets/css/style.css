@@ -98,11 +98,8 @@ nav {
 /* ###################### MAIN SECTIONS ##################### */
 /* ensure full page and footer at bottom */
 main {
-    background-color: yellow;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-     
+    background-color: lightgrey;
+         
 }
 
 main h1 {
@@ -112,10 +109,14 @@ main h1 {
     text-align: center;
     position: absolute;
 }
-
+.sections {
+    border: 1px solid;
+    height: 50vh;
+}
 
 /* Main landing gallery picture section */ 
-#hero-pics {
+#landding-gallery {
+    margin-top:100px;
     width: 100%;
     background-color: purple;
  }
@@ -131,8 +132,12 @@ main h1 {
 
 /* ######################### FOOTER ######################### */
 
-footer {
-    background-color: orange;
+
+
+#external-links {
+   
+    display:flex;
+    justify-content: space-around;
 }
 
 /* ###################### GALLERY PAGE ###################### */
