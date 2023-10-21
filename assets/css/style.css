@@ -15,11 +15,12 @@
 
 /* #################### TOP LEVEL STYLES #################### */
 body {
-    
+
     color: #fafafa;
     font-family: "Montserrat", sans-serif;
 
 }
+
 /* ######################### HEADER ######################### */
 /* set basic header style */
 header {
@@ -30,11 +31,11 @@ header {
     width: 100%;
     border-style: solid;
     border-color: #fafafa;
-    height:8%;
+    height: 8%;
     display: flex;
     justify-content: space-between;
-    align-items:center;
-    
+    align-items: center;
+
 }
 
 
@@ -44,14 +45,16 @@ header a {
     color: inherit;
     font-size: 2.5em;
 }
+
 /* hide large contact me button on phone displays */
 header #contact-large {
     display: none;
 }
+
 /* ######################### NAV BAR ######################## */
 /* remove bullet points */
 #links {
-       list-style-type: none;
+    list-style-type: none;
 }
 
 /* space out menu items*/
@@ -76,7 +79,8 @@ nav {
     padding-bottom: 30px;
     border-style: solid;
     border-color: #fafafa;
-    display: none; /* hide menu until user clicks on burger icon*/
+    display: none;
+    /* hide menu until user clicks on burger icon*/
     font-size: 0.5em;
 }
 
@@ -99,32 +103,39 @@ nav {
 /* ensure full page and footer at bottom */
 main {
     background-color: lightgrey;
-         
+
 }
 
 main h1 {
-    font-size: 1em;
+    font-size: 2em;
     font-family: "Freehand", sans-serif;
     text-decoration: none;
-    text-align: center;
-    position: absolute;
-}
-.sections {
-    border: 1px solid;
-    height: 50vh;
+    left: 50vw;
+   
+} 
+
+#signature {
+    top: 120px;
+    position: sticky;
 }
 
-/* Main landing gallery picture section */ 
-#landding-gallery {
-    margin-top:100px;
+.sections {
+    border: 1px solid;
+    height: 100vh;
+}
+
+/* Main landing gallery picture section */
+#landing-gallery {
+    text-align: center;
     width: 100%;
     background-color: purple;
- }
- /* About section*/
+}
+
+/* About section*/
 #about {
     width: 100%;
     background-color: green;
- }
+}
 
 #arrow-down {
     text-align: center;
@@ -135,8 +146,8 @@ main h1 {
 
 
 #external-links {
-   
-    display:flex;
+
+    display: flex;
     justify-content: space-around;
 }
 
