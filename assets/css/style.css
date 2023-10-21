@@ -10,9 +10,6 @@
     box-sizing: border-box;
 }
 
-
-
-
 /* #################### TOP LEVEL STYLES #################### */
 body {
 
@@ -29,7 +26,6 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    /* border-style: solid; */
     border-color: #fafafa;
     height: 8%;
     display: flex;
@@ -45,10 +41,16 @@ header a {
     font-size: 1.5em;
 }
 
+header #title {
+    font-size: 0.5em;
+}
+
 /* hide large contact me button on phone displays */
 header #contact-large {
     display: none;
 }
+
+
 
 /* ######################### NAV BAR ######################## */
 /* remove bullet points */
@@ -105,21 +107,17 @@ main {
 
 }
 
-main h1 {
+/* #signature {
     font-size: 2em;
     font-family: "Freehand", sans-serif;
     text-decoration: none;
-    left: 50vw;
-}
-
-#signature {
-    position: sticky;
     z-index: 90;
-    
     width: 100%;
+    top: 50vh;
     text-align: center;
     font-size: 0.5em;
-}
+    position: fixed;
+} */
 
 .sections {
     border: 1px solid;
@@ -136,7 +134,6 @@ main h1 {
     padding: 0;
     position: relative;
 }
-
 
 /* About section*/
 #about {
