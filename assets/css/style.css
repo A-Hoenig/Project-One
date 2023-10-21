@@ -15,9 +15,7 @@
 
 /* #################### TOP LEVEL STYLES #################### */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    
     color: #fafafa;
     font-family: "Montserrat", sans-serif;
 
@@ -38,6 +36,7 @@ header {
     align-items:center;
     
 }
+
 
 /* remove link underlines and link color default */
 header a {
@@ -99,98 +98,34 @@ nav {
 /* ###################### MAIN SECTIONS ##################### */
 /* ensure full page and footer at bottom */
 main {
-    background-color: darkgrey;
-       
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+     
 }
 
 main h1 {
     font-size: 1em;
-}
-
-.hero-pictures {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 1;
-    flex-basis:100%;
-    align-items: stretch;
-
-        
-    /* .hero-pictures img {
-        position:absolute;
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
-        margin:auto;
-    } */
-}
-
-/* #hero-pic1 {
-    position: absolute;
-    height: 100%;
-    opacity: 0;
-    inset: 0;
-    animation: slide-show 12s infinite;
-}
-
-#hero-pic2 {
-    animation-delay: 4s;
-}
-
-#hero-pic3 {
-    animation-delay: 8s;
-}
-
-.slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-@keyframes slide-show{ 
-    0% {
-        opacity: 0;
-    }
-    10% {
-        opacity: 1;
-    }
-    20%,
-    30% {
-        opacity: 1;
-        scale: 1.03;
-    }
-    50% {
-        opacity: 0;
-    } */
-
-
-
-
-
-
-#about {
-    background-color: grey;
- }
-
-
-#signature {
     font-family: "Freehand", sans-serif;
     text-decoration: none;
     text-align: center;
-    
-    
-    
     position: absolute;
 }
 
+
+/* Main landing gallery picture section */ 
+#hero-pics {
+    width: 100%;
+    background-color: purple;
+ }
+ /* About section*/
+#about {
+    width: 100%;
+    background-color: green;
+ }
+
 #arrow-down {
-    /* background-color: green; */
-    /* margin-top: 150px; */
     text-align: center;
 }
 
