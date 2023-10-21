@@ -150,7 +150,7 @@ main {
     width: 100%;
     background-color: green;
     position: absolute;
-   
+    padding-top: 130px;
     top: 100%;
     
 }
@@ -158,12 +158,13 @@ main {
 #bio-photo {
     position: absolute;
     top: 20px;
+    padding-top: 200px;
     margin: 20px;
     width: 80px;
 }
 
 #bio-text {
-    position: inherit;
+    text-align: center;
 }
 
 #arrow-down {
