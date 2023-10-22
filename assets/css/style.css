@@ -77,9 +77,6 @@ nav {
     display: none;
 }
 
-nav:after {
-    filter: blur(4px);
-}
 
 /* style mouse over menu items in bold */
 .hover:hover {
@@ -97,6 +94,13 @@ header #large-contact-button {
     
 }
 
+#contact-button:hover{
+    font-size: 1.1em;
+}
+
+#burger-label:hover {
+    font-size: 1.1em;
+}
 
 /* ################## STYLE MAIN CONTENT #################### */
 /* place main content between header and footer at fixed size */
@@ -108,16 +112,6 @@ main {
     right: 0px;
     overflow: auto;
 }
-
-/* main section {
-    min-width: 150px;
-} */
-
-/* main div {
-    padding: 2px;
-    border: 1px solid black;
-  
-} */
 
 #photos {
     background-color: black;
@@ -132,7 +126,7 @@ main {
     color: #fafafa;
     width: 100%;
     position:absolute;
-    bottom: 0;
+    bottom: 15px;
     text-align: center;
 }
 .container {
@@ -244,13 +238,18 @@ footer a {
     }
 
     .large-button {
-        
         padding: 2px 10px;
         border-radius: 5px;
         border: 2px solid;
         background: none;
         color: #fafafa;
         font-size: 100%;
+    }
+
+    .large-button:hover {
+        border: 2px solid black;
+        background: white;
+        color: black;
     }
 
     /* Adjust Footer changes */
