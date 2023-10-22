@@ -62,7 +62,7 @@ header a {
 /* setup popup menu and hide it */
 nav {
     position:fixed;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 140px;
     top: 50px;
     left: 10px;
@@ -75,6 +75,10 @@ nav {
     text-align: left;
     z-index: 98;
     display: none;
+}
+
+nav:after {
+    filter: blur(4px);
 }
 
 /* style mouse over menu items in bold */
@@ -116,15 +120,21 @@ main {
 } */
 
 #photos {
-    background-color: pink;
+    background-color: black;
+    background: url("../images/portrait17.jpg") no-repeat center center/cover;
     /* temp to visualize CHANGE TO BLACK */
     height: 100vh;
     text-align: center;
     border: 1px dashed black;
-    /* temp to visualize DELETE ME */
-  /* margin-top: 50px; */
 }
 
+#arrow-down {
+    color: #fafafa;
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    text-align: center;
+}
 .container {
     width: 100vw;
     height: 200px;
