@@ -1,21 +1,30 @@
+/*import google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 /* reset main defaults */
 * {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-  }
-  
-  /* set defaults for body element*/
-  body {
-    overflow: hidden; /* Hide scroll bars */
+}
+
+/* Style header popup menu */
+#menu {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+/* set defaults for body element*/
+body {
+    overflow: hidden;
     background-color: lightgrey;
     min-height: 100vh;
-    /* display: flex;
-    flex-direction: column; */
-  }
-  
-  /* style header and fix position at top*/
-  header {
+    font-family: "montserrat", sans-serif;
+}
+
+/* style header and fix position at top*/
+header {
     background-color: lightblue;
     border: 1px solid black;
     padding: 5px;
@@ -26,52 +35,89 @@
     right: 0px;
     overflow: hidden;
     z-index: 99;
-  }
-  
-  /* adjust heading font size*/
-  header h1 {
-    font-size: 1em;
-  }
+}
 
-  header input {
+/* adjust heading font size*/
+header h1 {
+    font-size: 1em;
+    color: #fafafa;
+}
+
+/* turn off std link styles */
+header a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+#burger-label {
+    color: #fafafa;
+}
+
+/* style pop up menu */
+#menu {
+    list-style-type: none;
+}
+
+header input {
     display: none;
-  }
-  
-  /* place main content between header and footer at fixed size */
-  main {
+}
+
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+}
+
+/* display menu*/
+#burger:checked~nav{
+    display:block;
+}
+
+
+/* place main content between header and footer at fixed size */
+main {
     position: absolute;
     top: 0;
     bottom: 50px;
     left: 0px;
     right: 0px;
     overflow: auto;
-  }
-  
-  main section {
+}
+
+main section {
     min-width: 150px;
-  }
-  
-  main div {
+}
+
+main div {
     /* padding: 2px; */
-    border: 1px solid black; /* temp to visualize DELETE ME */
+    border: 1px solid black;
+    /* temp to visualize DELETE ME */
     margin-top: 50px;
-  }
-  
-  #section-1 {
-    background-color: pink; /* temp to visualize CHANGE TO BLACK */
+}
+
+#section-1 {
+    background-color: pink;
+    /* temp to visualize CHANGE TO BLACK */
     height: 100vh;
     text-align: center;
-    border: 1px dashed black; /* temp to visualize DELETE ME */
-  }
-  
-  #section-2 {
-    background-color: orange; /* temp to visualize CHANGE */
+    border: 1px dashed black;
+    /* temp to visualize DELETE ME */
+}
+
+#section-2 {
+    background-color: orange;
+    /* temp to visualize CHANGE */
     height: 100vh;
     text-align: center;
-    border: 1px dashed black;/* temp to visualize DELETE ME */
-  }
-  
-  footer {
+    border: 1px dashed black;
+    /* temp to visualize DELETE ME */
+}
+
+footer {
     background-color: grey;
     border: 1px solid black;
     position: absolute;
@@ -81,19 +127,19 @@
     right: 0px;
     overflow: hidden;
     color: #fafafa;
-  
-  }
-  
-  /* divs to contain media link for flex spacing*/
-  footer div {
+
+}
+
+/* divs to contain media link for flex spacing*/
+footer div {
     min-width: 50px;
     min-height: 50px;
     text-align: center;
     font-size: 1.5em;
-  }
-  
-  /*main class to spread divs insider header and footer*/
-  .spread-horiz {
+}
+
+/*main class to spread divs insider header and footer*/
+.spread-horiz {
     display: flex;
     flex-direction: row;
     flex: 0 1 Auto;
@@ -105,20 +151,20 @@
     padding-right: 20px;
     padding-top: 0;
     line-height: 50px;
-  }
-  
-  /* delete me if not needed - style for icons on left*/
-  .auto-left {
+}
+
+/* delete me if not needed - style for icons on left*/
+.auto-left {
     display: flex;
     flex-direction: row;
     flex: 0 1 Auto;
-    justify-content:left;
+    justify-content: left;
     line-height: 50px;
     text-align: center;
     font-size: 1.5em;
     padding: 2%;
-  }
-  
-  /* #########################################################*/
-  /* ####################### TEST AREA #######################*/
-  /* #########################################################*/
+}
+
+/* #########################################################*/
+/* ####################### TEST AREA #######################*/
+/* #########################################################*/
