@@ -29,8 +29,7 @@ body {
 
 /* style header and fix position at top*/
 header {
-    background-color: lightblue;
-    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 5px;
     position: absolute;
     top: 0px;
@@ -63,16 +62,17 @@ header a {
 /* setup popup menu and hide it */
 nav {
     position:fixed;
-
-    background-color: red;
-    width: 150px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 140px;
     top: 50px;
-    left: 0;
+    left: 10px;
+    padding-left: 10px;
     padding-top: 2px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     border-style: solid;
     border-color: #fafafa;
-    font-size: 0.5em;
+    font-size: 0.75em;
+    text-align: left;
     z-index: 98;
 
     /* hide menu until user clicks on burger icon*/
@@ -116,7 +116,7 @@ main div {
     margin-top: 50px;
 }
 
-#section-1 {
+#photos {
     background-color: pink;
     /* temp to visualize CHANGE TO BLACK */
     height: 100vh;
@@ -126,7 +126,7 @@ main div {
   
 }
 
-#section-2 {
+#about {
     background-color: orange;
     /* temp to visualize CHANGE */
     height: 100vh;
