@@ -15,7 +15,7 @@
     list-style-type: none;
     text-decoration: none;
     color: #fafafa;
-    z-index: 99;
+    
 }
 
 /* set defaults for body element*/
@@ -37,13 +37,14 @@ header {
     height: 50px;
     right: 0px;
     overflow: hidden;
-    z-index: 90;
+    z-index: 99;
 }
 
 /* adjust heading font size*/
 header h1 {
-    font-size: 0.5em;
+    font-size: 0.7em;
     color: #fafafa;
+    font-family: "Freehand", sans-serif;
 }
 
 /* turn off std link styles */
@@ -51,6 +52,7 @@ header a {
     text-decoration: none;
     color: #fafafa;
 }
+
 /* hide checkbox square */
 #burger {
     display: none;
@@ -74,8 +76,6 @@ nav {
     font-size: 0.75em;
     text-align: left;
     z-index: 98;
-
-    /* hide menu until user clicks on burger icon*/
     display: none;
 }
 
@@ -85,14 +85,11 @@ nav {
 }
 
 /* hide large contact me button on phone displays */
-header #contact-large {
+header #large-contact-button {
     display: none;
+    
 }
 
-/* class to highlight selected menu item in bold*/
-.selected {
-    font-weight: bold;
-}
 
 /* ################## STYLE MAIN CONTENT #################### */
 /* place main content between header and footer at fixed size */
@@ -140,7 +137,6 @@ main div {
 footer {
     background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
-    /* display: flex; */
     bottom: 0px;
     height: 50px;
     left: 0px;
@@ -172,7 +168,6 @@ footer a {
     display:none;
 }
 
-
 /* #################### CLASSES ###################### */
 /* main class to spread divs insider header and footer */
 .spread-horiz {
@@ -200,7 +195,44 @@ footer a {
     align-self: flex-end;
 }
 
+/* class to highlight selected menu item in bold*/
+.selected {
+    font-weight: bold;
+}
 
+/* #################### MEDIA QUERIES ######################*/
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px ) {
+    header h1 {
+        font-size: 1em;
+    }
+    #contact-button {
+        display: none;
+    }
+    header #large-contact-button {
+        display: block;
+        background: none;
+    }
+
+    .large-button {
+        
+        padding: 2px 10px;
+        border-radius: 5px;
+        border: 2px solid;
+        background: none;
+        color: #fafafa;
+        font-size: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
 
 /* #########################################################*/
 /* ####################### TEST AREA #######################*/
