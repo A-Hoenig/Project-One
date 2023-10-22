@@ -15,7 +15,6 @@
     list-style-type: none;
     text-decoration: none;
     color: #fafafa;
-    
 }
 
 /* set defaults for body element*/
@@ -24,12 +23,11 @@ body {
     background-color: lightgrey;
     min-height: 100vh;
     font-family: "montserrat", sans-serif;
-    
 }
 
 /* style header and fix position at top*/
 header {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
     position: absolute;
     top: 0px;
@@ -79,6 +77,7 @@ nav {
     display: none;
 }
 
+/* style mouse over menu items in bold */
 .hover:hover {
     font-weight: bold;
 }
@@ -106,16 +105,15 @@ main {
     overflow: auto;
 }
 
-main section {
+/* main section {
     min-width: 150px;
-}
+} */
 
-main div {
-    /* padding: 2px; */
+/* main div {
+    padding: 2px;
     border: 1px solid black;
-    /* temp to visualize DELETE ME */
-    margin-top: 50px;
-}
+  
+} */
 
 #photos {
     background-color: pink;
@@ -124,7 +122,19 @@ main div {
     text-align: center;
     border: 1px dashed black;
     /* temp to visualize DELETE ME */
-  
+  /* margin-top: 50px; */
+}
+
+.container {
+    width: 100vw;
+    height: 200px;
+
+}
+
+.container img {
+    width: 100vw;
+    margin: auto;
+    display: block;
 }
 
 #about {
@@ -134,7 +144,11 @@ main div {
     text-align: center;
     border: 1px dashed black;
     /* temp to visualize DELETE ME */
-  
+    
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    justify-content: space-around;
 }
 
 /* ################## STYLE FOOTER CONTENT #################### */
