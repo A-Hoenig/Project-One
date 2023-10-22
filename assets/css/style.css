@@ -8,11 +8,14 @@
     padding: 0;
 }
 
+
+/* ################## STYLE HEADERCONTENT ################# */
 /* Style header popup menu */
 #menu {
     list-style-type: none;
     text-decoration: none;
     color: #fafafa;
+    z-index: 99;
 }
 
 /* set defaults for body element*/
@@ -21,6 +24,7 @@ body {
     background-color: lightgrey;
     min-height: 100vh;
     font-family: "montserrat", sans-serif;
+    
 }
 
 /* style header and fix position at top*/
@@ -48,36 +52,42 @@ header a {
     text-decoration: none;
     color: #fafafa;
 }
-
+/* hide checkbox square */
+#burger{
+    display: none;
+}
+/* Override burger label color */
 #burger-label {
     color: #fafafa;
 }
-
-/* style pop up menu */
-#menu {
-    list-style-type: none;
-}
-
-header input {
-    display: none;
-}
-
+/*setup popup menu and hide it*/
 nav {
     position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 150px;
     top: 100%;
+    left: 0;
+    padding-top: 2px;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-color: #fafafa;
+    display: none;
+    /* hide menu until user clicks on burger icon*/
+    font-size: 0.5em;
+    z-index: 98;
 }
 
-/* display menu*/
-#burger:checked~nav{
-    display:block;
+/* show the link menu when checkbox is true */
+#burger:checked~nav {
+    display: block;
 }
 
+/* hide large contact me button on phone displays */
+header #contact-large {
+    display: none;
+}
 
+/* ################## STYLE MAIN CONTENT #################### */
 /* place main content between header and footer at fixed size */
 main {
     position: absolute;
@@ -106,6 +116,7 @@ main div {
     text-align: center;
     border: 1px dashed black;
     /* temp to visualize DELETE ME */
+  
 }
 
 #section-2 {
@@ -115,6 +126,7 @@ main div {
     text-align: center;
     border: 1px dashed black;
     /* temp to visualize DELETE ME */
+  
 }
 
 footer {
