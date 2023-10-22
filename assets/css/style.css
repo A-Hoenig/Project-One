@@ -79,6 +79,10 @@ nav {
     display: none;
 }
 
+.hover:hover {
+    font-weight: bold;
+}
+
 /* show the link menu when user clicks burger */
 #burger:checked ~ nav {
     display: block;
