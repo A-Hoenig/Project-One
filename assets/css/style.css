@@ -1,17 +1,20 @@
+/* reset main defaults */
 * {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
   }
   
+  /* set defaults for body element*/
   body {
     overflow: hidden; /* Hide scroll bars */
-    /background-color: lightgrey;
+    background-color: lightgrey;
     min-height: 100vh;
     /* display: flex;
     flex-direction: column; */
   }
   
+  /* style header and fix position at top*/
   header {
     background-color: lightblue;
     border: 1px solid black;
@@ -22,15 +25,18 @@
     height: 50px;
     right: 0px;
     overflow: hidden;
+    z-index: 99;
   }
   
+  /* adjust heading font size*/
   header h1 {
     font-size: 1em;
   }
   
+  /* place main content between header and footer at fixed size */
   main {
     position: absolute;
-    top: 50px;
+    top: 0;
     bottom: 50px;
     left: 0px;
     right: 0px;
@@ -43,23 +49,22 @@
   
   main div {
     /* padding: 2px; */
-    border: 1px solid black;
-    /* margin: 0 10px; */
-    /* margin-top: 5px; */
+    border: 1px solid black; /* temp to visualize DELETE ME */
+    margin-top: 50px;
   }
   
   #section-1 {
-    background-color: pink;
+    background-color: pink; /* temp to visualize CHANGE TO BLACK */
     height: 100vh;
     text-align: center;
-    border: 1px dashed black;
+    border: 1px dashed black; /* temp to visualize DELETE ME */
   }
   
   #section-2 {
-    background-color: orange;
+    background-color: orange; /* temp to visualize CHANGE */
     height: 100vh;
     text-align: center;
-    border: 1px dashed black;
+    border: 1px dashed black;/* temp to visualize DELETE ME */
   }
   
   footer {
@@ -75,15 +80,15 @@
   
   }
   
+  /* divs to contain media link for flex spacing*/
   footer div {
     min-width: 50px;
     min-height: 50px;
-    /* border-radius: 50%;
-    border: 1px solid white; */
     text-align: center;
     font-size: 1.5em;
   }
   
+  /*main class to spread divs insider header and footer*/
   .spread-horiz {
     display: flex;
     flex-direction: row;
@@ -98,6 +103,7 @@
     line-height: 50px;
   }
   
+  /* delete me if not needed - style for icons on left*/
   .auto-left {
     display: flex;
     flex-direction: row;
