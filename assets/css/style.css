@@ -9,7 +9,7 @@
 }
 
 
-/* ################## STYLE HEADERCONTENT ################# */
+/* ################## STYLE HEADER CONTENT ################# */
 /* Style header popup menu */
 #menu {
     list-style-type: none;
@@ -42,7 +42,7 @@ header {
 
 /* adjust heading font size*/
 header h1 {
-    font-size: 1em;
+    font-size: 0.5em;
     color: #fafafa;
 }
 
@@ -194,7 +194,7 @@ footer a {
     display: flex;
     flex-direction: row;
     flex: 0 1 Auto;
-    justify-content:space-around;
+    justify-content:space-between;
     font-size: 1.5em;
     padding: 2px;
     align-self: flex-end;
