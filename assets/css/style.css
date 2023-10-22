@@ -38,7 +38,7 @@ header {
     height: 50px;
     right: 0px;
     overflow: hidden;
-    z-index: 99;
+    z-index: 90;
 }
 
 /* adjust heading font size*/
@@ -53,38 +53,45 @@ header a {
     color: #fafafa;
 }
 /* hide checkbox square */
-#burger{
+#burger {
     display: none;
 }
 /* Override burger label color */
 #burger-label {
     color: #fafafa;
 }
-/*setup popup menu and hide it*/
+/* setup popup menu and hide it */
 nav {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
+    position:fixed;
+
+    background-color: red;
     width: 150px;
-    top: 100%;
+    top: 50px;
     left: 0;
     padding-top: 2px;
     padding-bottom: 30px;
     border-style: solid;
     border-color: #fafafa;
-    display: none;
-    /* hide menu until user clicks on burger icon*/
     font-size: 0.5em;
     z-index: 98;
+
+    /* hide menu until user clicks on burger icon*/
+    display: none;
 }
 
-/* show the link menu when checkbox is true */
-#burger:checked~nav {
+/* show the link menu when user clicks burger */
+#burger:checked ~ nav {
     display: block;
 }
 
 /* hide large contact me button on phone displays */
 header #contact-large {
     display: none;
+}
+
+/* class to highlight selected menu item in bold*/
+.selected {
+    font-weight: bold;
 }
 
 /* ################## STYLE MAIN CONTENT #################### */
@@ -129,6 +136,7 @@ main div {
   
 }
 
+/* ################## STYLE FOOTER CONTENT #################### */
 footer {
     background-color: grey;
     border: 1px solid black;
@@ -150,7 +158,8 @@ footer div {
     font-size: 1.5em;
 }
 
-/*main class to spread divs insider header and footer*/
+/* #################### CLASSES ###################### */
+/* main class to spread divs insider header and footer */
 .spread-horiz {
     display: flex;
     flex-direction: row;
