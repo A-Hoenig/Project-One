@@ -1,190 +1,114 @@
-/* ###################### GOOGLE FONTS ##################### */
-@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-
-
-/* ######################### GLOBAL ######################## */
-/* Overide default*/
 * {
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-/* #################### TOP LEVEL STYLES #################### */
-body {
-
-    color: #fafafa;
-    font-family: "Montserrat", sans-serif;
-
-}
-
-/* ######################### HEADER ######################### */
-/* set basic header style */
-header {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    border-color: #fafafa;
-    height: 8%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-/* remove link underlines and link color default */
-header a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 1.5em;
-}
-
-header #title {
-    font-size: 0.5em;
-}
-
-/* hide large contact me button on phone displays */
-header #contact-large {
-    display: none;
-}
-
-
-
-/* ######################### NAV BAR ######################## */
-/* remove bullet points */
-#links {
-    list-style-type: none;
-}
-
-/* space out menu items*/
-#links li {
-    margin-top: 1em;
-    padding-left: 1em;
-}
-
-/* highlight the current page selected in menu bold */
-.selected {
-    font-weight: bold;
-}
-
-/* pop up menu feature*/
-nav {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 150px;
-    top: 100%;
-    left: 0;
-    padding-top: 2px;
-    padding-bottom: 30px;
-    border-style: solid;
-    border-color: #fafafa;
-    display: none;
-    /* hide menu until user clicks on burger icon*/
-    font-size: 0.5em;
-}
-
-/* show the link menu when checkbox is true */
-#menu-toggle:checked~nav {
-    display: block;
-}
-
-/*hide the checkbox square*/
-#menu-toggle {
-    display: none;
-}
-
-/* set new fontsize for burger icon*/
-.menu-toggle-label {
-    font-size: 1.5em;
-}
-
-/* ###################### MAIN SECTIONS ##################### */
-/* ensure full page and footer at bottom */
-main {
-    background-color: lightgrey;
-
-}
-
-/* #signature {
-    font-size: 2em;
-    font-family: "Freehand", sans-serif;
-    text-decoration: none;
-    z-index: 90;
-    width: 100%;
-    top: 50vh;
-    text-align: center;
-    font-size: 0.5em;
-    position: fixed;
-} */
-
-.sections {
-    border: 1px solid;
-    height: 100vh;
-}
-
-/* Main landing gallery picture section */
-#landing-gallery {
-    
-    background: url("../images/portrait17.jpg") no-repeat center center/cover;
-    text-align: center;
-    top: 0;
-    width: 100%;
-    background-color: black;
-    margin-top: 0;
     padding: 0;
-    position: relative;
-}
-
-#arrow-down {
+  }
+  
+  body {
+    overflow: hidden; /* Hide scroll bars */
+    /background-color: lightgrey;
+    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column; */
+  }
+  
+  header {
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 5px;
     position: absolute;
-    bottom: 10px;
-    text-align: center;
-    width: 100%;
-    font-size: 2em;
-}
-
-/* About section*/
-#about {
-    width: 100%;
-    background-color: green;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    right: 0px;
+    overflow: hidden;
+  }
+  
+  header h1 {
+    font-size: 1em;
+  }
+  
+  main {
     position: absolute;
-    padding-top: 130px;
-    top: 100%;
-    
-}
-
-#bio-photo {
+    top: 50px;
+    bottom: 50px;
+    left: 0px;
+    right: 0px;
+    overflow: auto;
+  }
+  
+  main section {
+    min-width: 150px;
+  }
+  
+  main div {
+    /* padding: 2px; */
+    border: 1px solid black;
+    /* margin: 0 10px; */
+    /* margin-top: 5px; */
+  }
+  
+  #section-1 {
+    background-color: pink;
+    height: 100vh;
+    text-align: center;
+    border: 1px dashed black;
+  }
+  
+  #section-2 {
+    background-color: orange;
+    height: 100vh;
+    text-align: center;
+    border: 1px dashed black;
+  }
+  
+  footer {
+    background-color: grey;
+    border: 1px solid black;
     position: absolute;
-    top: 20px;
-    padding-top: 200px;
-    margin: 20px;
-    width: 80px;
-}
-
-#bio-text {
+    bottom: 0px;
+    height: 50px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    color: #fafafa;
+  
+  }
+  
+  footer div {
+    min-width: 50px;
+    min-height: 50px;
+    /* border-radius: 50%;
+    border: 1px solid white; */
     text-align: center;
-}
-
-#arrow-down {
-    text-align: center;
-}
-
-/* ######################### FOOTER ######################### */
-
-#external-links {
-    
+    font-size: 1.5em;
+  }
+  
+  .spread-horiz {
     display: flex;
-    justify-content: space-around;
-}
-
-/* ###################### GALLERY PAGE ###################### */
-
-/* #################### TESTIMONIALS PAGE ################### */
-
-/* ###################### CONTACT PAGE ###################### */
-
-
-
-/* #################### MEDIA QUERIES ####################### */
+    flex-direction: row;
+    flex: 0 1 Auto;
+    justify-content: space-between;
+    /* line-height: 50px; */
+    text-align: center;
+    font-size: 1.5em;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+    line-height: 50px;
+  }
+  
+  .auto-left {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 Auto;
+    justify-content:left;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 2%;
+  }
+  
+  /* #########################################################*/
+  /* ####################### TEST AREA #######################*/
+  /* #########################################################*/
