@@ -121,7 +121,7 @@ main {
     right: 0px;
     overflow: auto;
 }
-
+/* section one at top of page */
 #photos {
     background-color: black;
     background: url("../images/portrait17.jpg") no-repeat center center/cover;
@@ -131,6 +131,7 @@ main {
     border: 1px dashed black;
 }
 
+/* Place doen arrow to encourage scroll down */
 #arrow-down {
     color: #fafafa;
     width: 100%;
@@ -138,30 +139,38 @@ main {
     bottom: 15px;
     text-align: center;
 }
-.container {
-    width: 100vw;
-    height: 200px;
-
-}
-
-.container img {
-    width: 100vw;
-    margin: auto;
-    display: block;
+.pic-container img {
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: contain;
+    padding: 5px;
 }
 
 #about {
+    padding-top: 50px;
     background-color: orange;
     /* temp to visualize CHANGE */
     height: 100vh;
     text-align: center;
     border: 1px dashed black;
     /* temp to visualize DELETE ME */
-    
-    display: flex;
+    display: grid;
+    grid-template-columns: 100%;
+
+
+    /* display: flex;
     flex-flow: row wrap;
     flex-grow: 1;
-    justify-content: space-around;
+    justify-content: space-around; */
+}
+
+#bio-photo {
+    float: left;
+    border-collapse: separate;
+    border-radius: 50%;
+   
 }
 
 /* ################## STYLE FOOTER CONTENT #################### */
