@@ -244,6 +244,27 @@ footer a {
     font-weight: bold;
 }
 
+/* ################ GALLERY PAGE ########################################## */
+
+.image-rows {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+
+/* setup 1 column - expand in media query */
+.image-column {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 5px;
+}
+
+.image-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
 /* #################### MEDIA QUERIES ######################*/
 
 /* Media query: tablets and larger (768px and up) */
@@ -306,6 +327,13 @@ footer a {
     footer #long-copyright {
         display: block;
     }
+/* ################ GALLERY PAGE MEDIA QUERIES################################# */
+    /* setup 1 column - expand in media query */
+.image-column {
+    flex: 33%%;
+    max-width: 33%;
+    padding: 0 5px;
+}
 }
 
 @media screen and (min-width: 992px) {
