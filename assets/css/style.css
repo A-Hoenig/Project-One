@@ -20,7 +20,7 @@
 /* set defaults for body element*/
 body {
     overflow: hidden;
-    background-color: lightgrey;
+    background-color: black;
     min-height: 100vh;
     font-family: "montserrat", sans-serif;
 }
@@ -100,7 +100,6 @@ nav {
 /* hide large contact me button on phone displays */
 header #large-contact-button {
     display: none;
-    
 }
 
 #contact-button:hover{
@@ -139,6 +138,12 @@ main {
     bottom: 15px;
     text-align: center;
 }
+/* Center intro message and then move left with media query*/ 
+#about #intro-p{
+    margin-bottom: 10px;
+    }
+
+/* make sure image size is correct and shrinks below 300px on phones */
 .pic-container img {
     height: 100%;
     width: 100%;
@@ -148,29 +153,30 @@ main {
     padding: 5px;
 }
 
+/* Style About section */
 #about {
     padding-top: 50px;
-    background-color: orange;
-    /* temp to visualize CHANGE */
+    background-color:black;
     height: 100vh;
     text-align: center;
     border: 1px dashed black;
     /* temp to visualize DELETE ME */
-    display: grid;
-    grid-template-columns: 100%;
-
-
-    /* display: flex;
-    flex-flow: row wrap;
-    flex-grow: 1;
-    justify-content: space-around; */
+ 
 }
 
 #bio-photo {
     float: left;
     border-collapse: separate;
     border-radius: 50%;
-   
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+
+#bio-text {
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:#fafafa;
 }
 
 /* ################## STYLE FOOTER CONTENT #################### */
@@ -268,6 +274,27 @@ footer a {
         border: 2px solid black;
         background: white;
         color: black;
+    }
+
+    /* Adjust about section for wider scree and switch to 2 columns*/
+    #bio-intro {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 0;
+    }
+
+    /* keep pic left and add a margin on large screens*/
+    #bio-photo {
+        margin-left: 20px;
+    }
+    #intro-p {
+        text-align: left;
+    }
+
+    /* Move Content doen on larger screen*/
+    #about {
+        padding-top: 200px;
+           
     }
 
     /* Adjust Footer changes */
