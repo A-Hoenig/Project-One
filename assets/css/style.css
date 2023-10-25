@@ -8,7 +8,6 @@
     padding: 0;
 }
 
-
 /* ################## STYLE HEADER CONTENT ################# */
 /* Style header popup menu */
 #menu {
@@ -69,6 +68,8 @@ header a {
     color: #fafafa;
 }
 /* setup popup menu and hide it */
+/* Credit to Code Institue Love Running tutorial for this menu functionality */
+
 nav {
     position:fixed;
     background-color: rgba(0, 0, 0, 0.5);
@@ -85,7 +86,6 @@ nav {
     z-index: 98;
     display: none;
 }
-
 
 /* style mouse over menu items in bold */
 .hover:hover {
@@ -126,9 +126,7 @@ main {
     background: url("../images/portrait17.jpg") no-repeat center center/cover;
     /* temp to visualize CHANGE TO BLACK */
     height: 100vh;
-    text-align: center;
-    border: 1px dashed black;
-}
+    }
 
 /* Place doen arrow to encourage scroll down */
 #arrow-down {
@@ -285,16 +283,19 @@ footer a {
 
     /* keep pic left and add a margin on large screens*/
     #bio-photo {
-        margin-left: 20px;
+        margin-left: 80px;
+    }
+
+    #bio-text {
+        margin-right: 50px;
     }
     #intro-p {
         text-align: left;
     }
 
-    /* Move Content doen on larger screen*/
+    /* Move Content down on larger screen*/
     #about {
         padding-top: 200px;
-           
     }
 
     /* Adjust Footer changes */
