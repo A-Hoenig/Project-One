@@ -259,7 +259,7 @@ footer a {
     padding: 0 5px;
     display: inline-block;
     overflow: hidden;
-    filter: brightness(80%);
+    
 }
 
 .image-column img {
@@ -273,7 +273,7 @@ footer a {
 }
 
 .zoom-picture:hover {
-    filter: brightness(150%);
+   border: 2px solid rgba(255, 255, 255, 0.8);
     /* transition: filter 0.25s ease; */
 }
 
