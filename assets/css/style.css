@@ -259,6 +259,7 @@ footer a {
     padding: 0 5px;
     display: inline-block;
     overflow: hidden;
+    filter: brightness(80%);
 }
 
 .image-column img {
@@ -268,12 +269,12 @@ footer a {
 }
 
 .zoom-picture {
-    transition: transform .4s;
+    /* transition: transform .2s; */
 }
 
 .zoom-picture:hover {
- transform: scale(1.05);
- /* border: 10px solid black; */
+    filter: brightness(150%);
+    /* transition: filter 0.25s ease; */
 }
 
 /* #################### MEDIA QUERIES ######################*/
