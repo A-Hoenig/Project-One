@@ -328,7 +328,7 @@ footer a {
         display: block;
     }
 /* ################ GALLERY PAGE MEDIA QUERIES################################# */
-    /* setup 1 column - expand in media query */
+    /* setup 3 column */
 .image-column {
     flex: 33%%;
     max-width: 33%;
@@ -337,10 +337,18 @@ footer a {
 }
 
 @media screen and (min-width: 992px) {
+ /* setup 4 column  */
+ .image-column {
+    flex: 25%%;
+    max-width: 25%;
+    padding: 0 5px;
+}
+
 
 }
 
 @media screen and (min-width: 1200px) {
+
 
 }
 
