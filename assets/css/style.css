@@ -51,6 +51,15 @@ header a {
     color: #fafafa;
 }
 
+/* Display elements in 3 equal grids for header - keeps title in center even when right side changes*/
+.grid {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: stretch;
+    align-items: center;
+  }
+
 /* hide checkbox square */
 #burger {
     display: none;
