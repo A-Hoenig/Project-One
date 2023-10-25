@@ -265,6 +265,17 @@ footer a {
     width: 100%;
 }
 
+
+
+.zoom-picture {
+    transition: transform .4s;
+}
+
+.zoom-picture:hover {
+ transform: scale(1.1);
+ border: 10px solid black;
+}
+
 /* #################### MEDIA QUERIES ######################*/
 
 /* Media query: tablets and larger (768px and up) */
