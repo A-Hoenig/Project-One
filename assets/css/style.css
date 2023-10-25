@@ -287,7 +287,8 @@ footer a {
     }
 
     #bio-text {
-        margin-right: 50px;
+        margin-right: 20%;
+        font-size: 1.2em;
     }
     #intro-p {
         text-align: left;
