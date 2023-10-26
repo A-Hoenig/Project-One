@@ -63,17 +63,17 @@
 
     <!-- ##################### MAIN ################################-->
     <main id="contact-background">
-        <section>
+        <section id="contact">
             <form id="contact-form" action="https://formdump.codeinstitute.net" method="POST">
                 <h2>Let me know what I can do for you!</h2>
                 <label for="fname">First Name</label>
-                <input type="text" class="text-input" name="fname" id="fname" required>
+                <input type="text" class="text-input" name="fname" id="fname" placeholder="required" required>
                 <br>
                 <label for="lname">Last Name</label>
-                <input type="text" class="text-input" name="lname" id="lname" required>
+                <input type="text" class="text-input" name="lname" id="lname" placeholder="required" required>
                 <br>
                 <label for="email">Email Address</label>
-                <input type="email" class="text-input" name="email" id="email" required>
+                <input type="email" class="text-input" name="email" id="email" placeholder="required" required>
 
                 <p>What are you interested in?</p>
                 <br>
@@ -99,10 +99,10 @@
                 <br>
                 <label for="details">Any other details?</label>
                 <br>
-                <textarea id="feedback" rows="4"  name="details"></textarea>
+                <textarea id="feedback" rows="4" name="details" placeholder="what are you interested in?"></textarea>
                 <br>
-
-                <input type="submit" class="contact-button" value="Let's do this!">
+                        <!--  cols="10" */-->
+                <input type="submit" id="submit-button" class="large-button" value="Let's do this!">
             </form>
         </section>
 

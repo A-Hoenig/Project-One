@@ -311,35 +311,63 @@ main h1 {
 }
 
 /* ################ CONTACT PAGE ########################################## */
-#contact-background {
+#contact {
     background: url("../images/contact-bg.jpg") no-repeat center center/cover;
+    height: 100vh;
+    flex-grow: 1;
+}
+
+#contact-form {
+    position: absolute;
+    left: 20px;
+    width: 80%;
+}
+
+.text-input {
+    display: flex;
+}
+
+#submit-button {
+    padding: 2px 10px;
+    border-radius: 5px;
+    border: 2px solid;
+    background: none;
+    color: #fafafa;
+    font-size: 100%;
+}
+
+#submit-button:hover {
+    border: 2px solid black;
+    background: white;
+    color: black;
 }
 
 section #contact-form {
     margin: 50px auto;
     padding: 10px;
     background-color: rgba(60, 60, 60, 0.7);
-    border-radius: 15px;;
+    border-radius: 15px;
     color: #fafafa;
     width: 75%;
 }
 
+/* style title of form*/
 #contact-form h2 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 0.9em;
-    color:red;
 }
 
-#contact-form #feeback {
+/* no effect - check into this ........ */
+#form #feeback {
     width: 300px;
     margin: 10px;
 }
 
+/* space text inputs*/
 form input {
     margin: 5px 5px 10px 10px;
 }
-
 
 /* #################### MEDIA QUERIES ######################*/
 
@@ -408,7 +436,7 @@ form input {
         display: block;
     }
 
-    /* ################ GALLERY PAGE MEDIA QUERIES################################# */
+    /* ################ GALLERY PAGE MEDIA QUERIES ################################# */
     /* setup 3 column */
     .image-column {
         flex: 33%;
@@ -416,19 +444,7 @@ form input {
         padding: 0 5px;
     }
 
-
-}
-
-@media screen and (min-width: 992px) {
-
-    /* setup 4 column  */
-    .image-column {
-        flex: 25%;
-        max-width: 25%;
-        padding: 0 5px;
-    }
-
-    /* ################TESTIMONIAL PAGE MEDIA QUERIES################################# */
+    /* ################ TESTIMONIAL PAGE MEDIA QUERIES ################################# */
 
     /* Move everything down on larger screen and adjust size of scroll box */
     /* style heading */
@@ -449,6 +465,32 @@ form input {
         padding: 5px;
         margin-bottom: 60px;
     }
+
+    /* ################ CONTACT PAGE MEDIA QUERIES################################# */
+    #contact-form h2 {
+        font-size: 1.5em;
+    }
+
+    #contact-form {
+        position: absolute;
+        max-width: 400px;
+        top: 150px;
+        left: 10%;
+
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    /* setup 4 column  */
+    .image-column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 5px;
+    }
+
+
 
 
 }
