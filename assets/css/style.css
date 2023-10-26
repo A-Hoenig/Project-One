@@ -311,6 +311,9 @@ main h1 {
 }
 
 /* ################ CONTACT PAGE ########################################## */
+#contact-background {
+    background: url("../images/contact-bg.jpg") no-repeat center center/cover;
+}
 
 section #contact-form {
     margin-top: 80px;
