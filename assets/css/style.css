@@ -265,17 +265,12 @@ footer a {
     padding: 0 5px;
     display: inline-block;
     overflow: hidden;
-
 }
 
 .image-column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-}
-
-.picture-hover {
-    /* transition: transform .2s; */
 }
 
 .picture-hover:hover {
@@ -291,7 +286,8 @@ footer a {
 
 /* style heading */
 main h1 {
-    margin-top: 200px;
+    margin-top: 80px;
+    margin-bottom: 50px;
     color: #fafafa;
     text-align: center;
     text-transform: uppercase;
@@ -301,7 +297,7 @@ main h1 {
     border: 2px solid white;
     margin: 10px auto;
     width: 80%;
-    height: 200px;
+    height: 350px;
     background-color: rgba(255, 255, 255, 0.1);
     overflow-x: hidden;
     overflow-y: auto;
@@ -346,7 +342,7 @@ main h1 {
         color: black;
     }
 
-    /* Adjust about section for wider scree and switch to 2 columns*/
+    /* Adjust about section for wider screen and switch to 2 columns*/
     #bio-intro {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -388,6 +384,8 @@ main h1 {
         max-width: 33%;
         padding: 0 5px;
     }
+
+
 }
 
 @media screen and (min-width: 992px) {
@@ -397,6 +395,29 @@ main h1 {
         flex: 25%;
         max-width: 25%;
         padding: 0 5px;
+    }
+
+    /* ################TESTIMONIAL PAGE MEDIA QUERIES################################# */
+
+    /* Move everything down on larger screen and adjust size of scroll box */
+    /* style heading */
+    main h1 {
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+
+    #scroll-window {
+        border: 2px solid white;
+        margin: 10px auto;
+        width: 50%;
+        height: 350px;
+    }
+
+    #scroll-window p {
+        color: #fafafa;
+        padding: 5px;
+        margin-bottom: 60px;
+        text-align: center;
     }
 
 
