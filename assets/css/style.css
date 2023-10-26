@@ -74,7 +74,7 @@ header a {
 
 nav {
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     width: 140px;
     top: 50px;
     left: 10px;
@@ -316,14 +316,28 @@ main h1 {
 }
 
 section #contact-form {
-    margin-top: 80px;
+    margin: 50px auto;
     padding: 10px;
+    background-color: rgba(60, 60, 60, 0.7);
+    border-radius: 15px;;
     color: #fafafa;
+    width: 75%;
 }
 
 #contact-form h2 {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 0.9em;
+    color:red;
+}
+
+#contact-form #feeback {
+    width: 300px;
+    margin: 10px;
+}
+
+form input {
+    margin: 5px 5px 10px 10px;
 }
 
 
