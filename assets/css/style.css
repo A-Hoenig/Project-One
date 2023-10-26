@@ -57,21 +57,23 @@ header a {
     grid-template-columns: 33% 33% 33%;
     justify-items: stretch;
     align-items: center;
-  }
+}
 
 /* hide checkbox square */
 #burger {
     display: none;
 }
+
 /* Override burger label color */
 #burger-label {
     color: #fafafa;
 }
+
 /* setup popup menu and hide it */
 /* Credit to Code Institue Love Running tutorial for this menu functionality */
 
 nav {
-    position:fixed;
+    position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
     width: 140px;
     top: 50px;
@@ -93,7 +95,7 @@ nav {
 }
 
 /* show the link menu when user clicks burger */
-#burger:checked ~ nav {
+#burger:checked~nav {
     display: block;
 }
 
@@ -102,7 +104,7 @@ header #large-contact-button {
     display: none;
 }
 
-#contact-button:hover{
+#contact-button:hover {
     font-size: 1.1em;
 }
 
@@ -120,26 +122,28 @@ main {
     right: 0px;
     overflow: auto;
 }
+
 /* section one at top of page */
 #photos {
     background-color: black;
     background: url("../images/portrait17.jpg") no-repeat center center/cover;
     /* temp to visualize CHANGE TO BLACK */
     height: 100vh;
-    }
+}
 
 /* Place doen arrow to encourage scroll down */
 #arrow-down {
     color: #fafafa;
     width: 100%;
-    position:absolute;
+    position: absolute;
     bottom: 15px;
     text-align: center;
 }
-/* Center intro message and then move left with media query*/ 
-#about #intro-p{
+
+/* Center intro message and then move left with media query*/
+#about #intro-p {
     margin-bottom: 10px;
-    }
+}
 
 /* make sure image size is correct and shrinks below 300px on phones */
 .pic-container img {
@@ -154,12 +158,12 @@ main {
 /* Style About section */
 #about {
     padding-top: 50px;
-    background-color:black;
+    background-color: black;
     height: 100vh;
     text-align: center;
     border: 1px dashed black;
     /* temp to visualize DELETE ME */
- 
+
 }
 
 #bio-photo {
@@ -174,7 +178,7 @@ main {
     text-align: justify;
     margin-left: 5px;
     margin-right: 5px;
-    color:#fafafa;
+    color: #fafafa;
 }
 
 /* ################## STYLE FOOTER CONTENT #################### */
@@ -204,12 +208,14 @@ footer a {
     text-decoration: none;
     color: #fafafa;
 }
+
 #copyright {
-    margin-top:8px;
+    margin-top: 8px;
 }
+
 /* HIDE LARGE COPYRIGHT ON PHONE SCREEN */
 #long-copyright {
-    display:none;
+    display: none;
 }
 
 /* #################### CLASSES ###################### */
@@ -233,7 +239,7 @@ footer a {
     display: flex;
     flex-direction: row;
     flex: 0 1 Auto;
-    justify-content:space-between;
+    justify-content: space-between;
     font-size: 1.5em;
     padding: 2px;
     align-self: flex-end;
@@ -259,7 +265,7 @@ footer a {
     padding: 0 5px;
     display: inline-block;
     overflow: hidden;
-    
+
 }
 
 .image-column img {
@@ -273,7 +279,7 @@ footer a {
 }
 
 .picture-hover:hover {
-   border: 2px solid rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.8);
     /* transition: filter 0.25s ease; */
 }
 
@@ -310,13 +316,15 @@ main h1 {
 /* #################### MEDIA QUERIES ######################*/
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px ) {
+@media screen and (min-width: 768px) {
     header h1 {
         font-size: 1em;
     }
+
     #contact-button {
         display: none;
     }
+
     header #large-contact-button {
         display: block;
         background: none;
@@ -353,6 +361,7 @@ main h1 {
         margin-right: 20%;
         font-size: 1.2em;
     }
+
     #intro-p {
         text-align: left;
     }
@@ -366,33 +375,33 @@ main h1 {
     #short-copyright {
         display: none;
     }
+
     footer #long-copyright {
         display: block;
     }
-/* ################ GALLERY PAGE MEDIA QUERIES################################# */
+
+    /* ################ GALLERY PAGE MEDIA QUERIES################################# */
     /* setup 3 column */
-.image-column {
-    flex: 33%;
-    max-width: 33%;
-    padding: 0 5px;
-}
+    .image-column {
+        flex: 33%;
+        max-width: 33%;
+        padding: 0 5px;
+    }
 }
 
 @media screen and (min-width: 992px) {
- /* setup 4 column  */
- .image-column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 5px;
-}
+
+    /* setup 4 column  */
+    .image-column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 5px;
+    }
 
 
 }
 
-@media screen and (min-width: 1200px) {
-
-
-}
+@media screen and (min-width: 1200px) {}
 
 /* #########################################################*/
 /* ####################### TEST AREA #######################*/
