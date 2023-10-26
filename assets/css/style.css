@@ -311,20 +311,25 @@ main h1 {
 }
 
 /* ################ CONTACT PAGE ########################################## */
+/* set background for section containing form and set height*/
 #contact {
     background: url("../images/contact-bg.jpg") no-repeat center center/cover;
     height: 100vh;
-    flex-grow: 1;
 }
 
+/* position form fixed on page */
 #contact-form {
+    color: #fafafa;
     position: absolute;
-    left: 20px;
-    width: 80%;
-}
-
-.text-input {
-    display: flex;
+    margin-left: 10px;
+    margin-right: 20px;
+    top: 70px;
+    display: grid;
+    grid-template-columns: 1;
+    background-color: rgba(60, 60, 60, 0.7);
+    border-radius: 15px;
+    width:98%;
+    padding: 10px;
 }
 
 #submit-button {
@@ -342,14 +347,14 @@ main h1 {
     color: black;
 }
 
-section #contact-form {
+/* section #contact-form {
     margin: 50px auto;
     padding: 10px;
     background-color: rgba(60, 60, 60, 0.7);
     border-radius: 15px;
     color: #fafafa;
     width: 75%;
-}
+} */
 
 /* style title of form*/
 #contact-form h2 {
@@ -467,7 +472,7 @@ form input {
     }
 
     /* ################ CONTACT PAGE MEDIA QUERIES################################# */
-    #contact-form h2 {
+    /* #contact-form h2 {
         font-size: 1.5em;
     }
 
@@ -477,7 +482,7 @@ form input {
         top: 150px;
         left: 10%;
 
-    }
+    } */
 
 }
 
