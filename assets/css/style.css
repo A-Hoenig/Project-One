@@ -268,11 +268,11 @@ footer a {
     width: 100%;
 }
 
-.zoom-picture {
+.picture-hover {
     /* transition: transform .2s; */
 }
 
-.zoom-picture:hover {
+.picture-hover:hover {
    border: 2px solid rgba(255, 255, 255, 0.8);
     /* transition: filter 0.25s ease; */
 }
