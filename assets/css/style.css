@@ -277,6 +277,36 @@ footer a {
     /* transition: filter 0.25s ease; */
 }
 
+/* ################ TESTIMONIALS PAGE ########################################## */
+
+main {
+    background: url("../images/testimonials-bg.webp") no-repeat center center/cover;
+}
+
+/* style heading */
+main h1 {
+    margin-top: 200px;
+    color: #fafafa;
+    text-align: center;
+}
+
+#scroll-window {
+    border: 2px solid white;
+    margin: 0 auto;
+    width: 80%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.3);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#scroll-window p {
+    color: #fafafa;
+    padding: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 /* #################### MEDIA QUERIES ######################*/
 
 /* Media query: tablets and larger (768px and up) */
