@@ -64,9 +64,39 @@
     <!-- ##################### MAIN ################################-->
     <main>
         <section>
-            <div>
-                section 1
-            </div>
+            <form id="contact-form" action="https://formdump.codeinstitute.net" method="POST">
+                <h2>Let me know what I can do for you!</h2>
+                <label for="fname">First Name</label>
+                <input type="text" class="text-input" name="fname" id="fname" required >
+                <br>
+                <label for="lname">Last Name</label>
+                <input type="text" class="text-input" name="lname" id="lname" required>
+                <br>
+                <label for="email">Email Address</label>
+                <input type="email" class="text-input" name="email" id="email" required>
+                
+                <p>What are you interested in?</p>
+                <br>
+                <div class="check-buttons">
+                    
+                    <input type="checkbox" class="check-buttons" name="shooting" id="portrait" value="Portrait" required>
+                    <label for="portrait">Portrait</label>
+                    <br>
+                    
+                    <input type="checkbox" class="check-buttons" name="shooting" id="head" value="Head">
+                    <label for="head">Head Shots</label>
+                    <br>
+                    
+                    <input type="checkbox" class="check-buttons" name="shooting" id="boudoir" value="boudoir">
+                    <label for="boudoir">Boudoir</label>
+                    <br>
+                    
+                    <input type="checkbox" class="check-buttons" name="shooting" id="other" value="other">
+                    <label for="other">Other</label>
+                </div>
+                <br>
+                <input type="submit" class="contact-button" value="Let's do this!">
+            </form>
         </section>
 
         
