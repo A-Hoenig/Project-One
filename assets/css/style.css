@@ -36,7 +36,7 @@ header {
     overflow: hidden;
     z-index: 99;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 25% 50% 25%;
     align-items: center;
    
 }
@@ -47,7 +47,7 @@ header {
 
 /* adjust heading font size*/
 header h1 {
-    font-size: 0.7em;
+    font-size: 0.8em;
     color: #fafafa;
     font-family: "Freehand", sans-serif;
     text-align: center;
@@ -388,7 +388,9 @@ form input {
     margin: 5px 5px 10px 10px;
 }
 
+/* #########################################################*/
 /* #################### MEDIA QUERIES ######################*/
+/* #########################################################*/
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -407,13 +409,8 @@ form input {
         text-align: center;
     }
     
-    /*test delete this if it craps out*/
-
-
-
-
     header h1 {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     #contact-button {
