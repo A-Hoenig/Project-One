@@ -35,6 +35,15 @@ header {
     right: 0px;
     overflow: hidden;
     z-index: 99;
+
+    /* delete this is not working */
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* delete this is not working */
+}
+
+#contact-button {
+    text-align: right;
 }
 
 /* adjust heading font size*/
@@ -42,6 +51,11 @@ header h1 {
     font-size: 0.7em;
     color: #fafafa;
     font-family: "Freehand", sans-serif;
+    text-align: center;
+    /* delete if not working */
+    margin: 0 auto;
+    /* delete if not working */
+
 }
 
 /* turn off std link styles */
@@ -215,7 +229,7 @@ footer a {
 }
 
 footer a:hover {
-   font-size: 1.1em;
+    font-size: 1.1em;
 }
 
 
@@ -334,7 +348,7 @@ main h1 {
     grid-template-columns: 1fr;
     background-color: rgba(60, 60, 60, 0.7);
     border-radius: 15px;
-    width:92%;
+    width: 92%;
     padding: 10px;
 }
 
@@ -375,6 +389,26 @@ form input {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
+    /*test delete this if it craps out*/
+    header {
+        display: inline-grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    
+    #large-contact-button {
+        text-align: right;
+    }
+
+    #title {
+        text-align: center;
+    }
+    
+    /*test delete this if it craps out*/
+
+
+
+
     header h1 {
         font-size: 1em;
     }
@@ -474,10 +508,10 @@ form input {
         margin-right: 20px;
         left: 100px;
         top: 70px;
-        width:350px;
+        width: 350px;
         padding: 10px;
     }
-    
+
 
 }
 
