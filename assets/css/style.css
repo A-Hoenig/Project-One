@@ -35,11 +35,10 @@ header {
     right: 0px;
     overflow: hidden;
     z-index: 99;
-
-    /* delete this is not working */
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    /* delete this is not working */
+    align-items: center;
+   
 }
 
 #contact-button {
@@ -52,10 +51,7 @@ header h1 {
     color: #fafafa;
     font-family: "Freehand", sans-serif;
     text-align: center;
-    /* delete if not working */
     margin: 0 auto;
-    /* delete if not working */
-
 }
 
 /* turn off std link styles */
@@ -120,10 +116,12 @@ header #large-contact-button {
 
 #contact-button:hover {
     font-size: 1.1em;
+    cursor: pointer;
 }
 
 #burger-label:hover {
     font-size: 1.1em;
+    cursor: pointer;
 }
 
 /* ################## STYLE MAIN CONTENT #################### */
@@ -365,6 +363,11 @@ main h1 {
     border: 2px solid black;
     background: white;
     color: black;
+    cursor: pointer;
+}
+
+form input:hover ,form textarea:hover {
+    border: 2px solid rgb(170, 0, 0);
 }
 
 /* style title of form*/
@@ -435,6 +438,7 @@ form input {
         border: 2px solid black;
         background: white;
         color: black;
+        cursor: pointer;
     }
 
     /* Adjust about section for wider screen and switch to 2 columns*/
