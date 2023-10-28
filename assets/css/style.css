@@ -399,9 +399,9 @@ form input {
     margin: 5px 5px 10px 10px;
 }
 
-/* #########################################################*/
-/* #################### MEDIA QUERIES ######################*/
-/* #########################################################*/
+/* ###########################################################################*/
+/* ########################### MEDIA QUERIES #################################*/
+/* ###########################################################################*/
 
 /* Media query: tablets and larger (768px and up) */
 /* start text around bio foto circle early */
@@ -466,6 +466,15 @@ form input {
     #about-section {
         margin: 0 auto;
         margin-top: 10px;
+    }
+
+    /* Adjust Footer changes */
+    #short-copyright {
+        display: none;
+    }
+
+    footer #long-copyright {
+        display: block;
     }
 
     /* ################ GALLERY PAGE MEDIA QUERIES ################################# */
