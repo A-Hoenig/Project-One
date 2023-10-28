@@ -403,7 +403,7 @@ form textarea:hover {
 }
 
 /* no effect - check into this ........ */
-#form #feeback {
+#form #form-feedback {
     width: 300px;
     margin: 10px;
 }
