@@ -102,7 +102,10 @@ nav {
 
 /* style mouse over menu items in bold */
 .hover:hover {
-    font-weight: bold;
+    /* border: 2px solid black; */
+    background: white;
+    color: black;
+    cursor: pointer;
 }
 
 /* show the link menu when user clicks burger */
@@ -150,7 +153,7 @@ main {
     color: #fafafa;
     position: absolute;
     top: 60%;
-    left:40px;
+    left: 40px;
 }
 
 #arrow-down {
@@ -159,6 +162,7 @@ main {
     position: absolute;
     bottom: 15px;
     text-align: center;
+    font-size: 2.5em;
 }
 
 /* style About section for phone size (media query for larger) */
@@ -546,24 +550,32 @@ form input {
     #burger-label {
         display: none;
     }
-    
+
     header {
         display: grid;
         grid-template-columns: 33% 33% 33%;
     }
-    
-    nav{
+
+    nav {
         /* position: unset; */
-        display: grid; 
+        display: grid;
         grid-column-start: 1;
         top: 0%;
         border: none;
         background: none;
-        width: 400px; 
+        width: 400px;
     }
 
     nav li {
         display: inline;
+        border: 1px solid #fafafa;
+        margin-right: 5px;
+        padding: 2px 10px;
+        border-radius: 5px;
+        border: 2px solid;
+        background: none;
+        color: #fafafa;
+        font-size: 100%;
     }
 
     /* ensure title stays in middle grid on large screen*/
