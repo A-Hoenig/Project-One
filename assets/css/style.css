@@ -211,7 +211,6 @@ footer {
     color: #fafafa;
     margin-right: 5px;
     border-top: 2px solid rgba(60, 60, 60, 0.8)
-
 }
 
 /* divs to contain media link for flex spacing*/
@@ -415,6 +414,7 @@ form input {
 
 @media screen and (min-width: 768px) {
 
+    /* create equal grid of 3 to space burger, title and contact link evenly */
     header {
         display: inline-grid;
         grid-template-columns: 33% 33% 33%;
@@ -428,19 +428,23 @@ form input {
         text-align: center;
     }
 
+    /* increase size of Webpage Title*/
     header h1 {
         font-size: 1.5em;
     }
 
+    /* hide the small envelope button on large screens */
     #contact-button {
         display: none;
     }
 
+    /* show larger contact me button */
     header #large-contact-button {
         display: block;
         background: none;
     }
 
+    /* style large contact button*/
     .large-button {
         padding: 2px 10px;
         border-radius: 5px;
@@ -450,6 +454,7 @@ form input {
         font-size: 100%;
     }
 
+    /* invert color of contact button on mouse over and change cursor */
     .large-button:hover {
         border: 2px solid black;
         background: white;
@@ -457,16 +462,14 @@ form input {
         cursor: pointer;
     }
 
-    /* Center about section for wider screen */
-
+    /* Center about section for wider screens */
     #about-section {
         margin: 0 auto;
         margin-top: 10px;
     }
 
-
     /* ################ GALLERY PAGE MEDIA QUERIES ################################# */
-    /* setup 3 column */
+    /* setup 3 columns */
     .image-column {
         flex: 33%;
         max-width: 33%;
@@ -505,7 +508,6 @@ form input {
         padding: 10px;
     }
 
-
 }
 
 @media screen and (min-width: 992px) {
@@ -517,13 +519,4 @@ form input {
         padding: 0 5px;
     }
 
-
-
-
 }
-
-@media screen and (min-width: 1200px) {}
-
-/* #########################################################*/
-/* ####################### TEST AREA #######################*/
-/* #########################################################*/
