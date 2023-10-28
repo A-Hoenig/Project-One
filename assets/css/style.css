@@ -248,6 +248,7 @@ footer a {
 
 #copyright {
     margin-top: 8px;
+    text-align: right;
 }
 
 footer a:hover {
@@ -258,30 +259,14 @@ footer a:hover {
 /* HIDE LARGE COPYRIGHT ON PHONE SCREEN */
 #long-copyright {
     display: none;
+    text-align: right;
 }
 
 /* #################### CLASSES ###################### */
-/* main class to spread divs insider header and footer */
-.spread-horiz {
-    display: flex;
-    flex-direction: row;
-    flex: 0 1 Auto;
-    justify-content: space-between;
-    /* line-height: 50px; */
-    text-align: center;
-    font-size: 1.5em;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 0;
-    line-height: 50px;
-}
 
-/* delete me if not needed - style for icons on left*/
 .foot-spacing {
-    display: flex;
-    flex-direction: row;
-    flex: 0 1 Auto;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 40px 40px 40px auto;
     font-size: 1.5em;
     padding: 2px;
     align-self: flex-end;
@@ -425,7 +410,7 @@ form input {
 /* start text around bio foto circle early */
 @media screen and (min-width: 350px) {
 
-    .circle .selfie {
+    .circle.selfie {
         shape-outside: circle();
     }
 }
