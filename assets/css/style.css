@@ -153,18 +153,21 @@ main {
     text-align: center;
 }
 
-/* Center intro message and then move left with media query*/
-#about #intro-p {
-    margin-bottom: 10px;
-}
-
-/* TEST AREA */
-
+/* style Abnut section for phone size (media query for larger */
 #about-section {
     position: relative;
     width: 100%;
     padding: 10px;
     color: #fafafa;
+    max-width: 800px;
+}
+
+#about-section h3 {
+    margin-bottom: 20px;
+}
+
+#about-section p {
+   text-align: justify;
 }
 
 .circle{
@@ -173,16 +176,28 @@ main {
 }
 
 .circle.selfie {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     float: left;
     border-radius: 50%;
-    margin: 20px;
-    shape-outside: circle();
+    margin: 10px;
+    shape-outside: square();
 }
 
+.circle img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-/* TEST AREA */
+#signature {
+    font-family: "Freehand", sans-serif;
+    text-align: right;
+    padding-right: 30px;
+}
 
 /* ################## STYLE FOOTER CONTENT #################### */
 footer {
@@ -384,9 +399,17 @@ form input {
 /* #########################################################*/
 
 /* Media query: tablets and larger (768px and up) */
+/* start text around bio foto circle early */
+@media screen and (min-width: 350px) {
+    
+    .circle.selfie {
+        
+        shape-outside: circle();
+    }
+}
+
 @media screen and (min-width: 768px) {
 
-    /*test delete this if it craps out*/
     header {
         display: inline-grid;
         grid-template-columns: 33% 33% 33%;
