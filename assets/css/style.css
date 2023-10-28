@@ -109,6 +109,10 @@ nav {
     cursor: pointer;
 }
 
+.hover:hover a {
+    color: black;
+}
+
 /* show the link menu when user clicks burger */
 #burger:checked~nav {
     display: block;
