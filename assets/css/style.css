@@ -38,7 +38,7 @@ header {
     display: grid;
     grid-template-columns: 25% 50% 25%;
     align-items: center;
-   
+
 }
 
 #contact-button {
@@ -153,13 +153,17 @@ main {
     text-align: center;
 }
 
-/* style Abnut section for phone size (media query for larger */
+/* style About section for phone size (media query for larger) */
 #about-section {
     position: relative;
     width: 100%;
     padding: 10px;
     color: #fafafa;
-    max-width: 800px;
+    max-width: 768px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: rgba(60, 60, 60, 0.7);
+
 }
 
 #about-section h3 {
@@ -167,10 +171,10 @@ main {
 }
 
 #about-section p {
-   text-align: justify;
+    text-align: justify;
 }
 
-.circle{
+.circle {
     position: relative;
     overflow: hidden;
 }
@@ -372,7 +376,8 @@ main h1 {
     cursor: pointer;
 }
 
-form input:hover ,form textarea:hover {
+form input:hover,
+form textarea:hover {
     border: 2px solid rgb(170, 0, 0);
 }
 
@@ -401,9 +406,8 @@ form input {
 /* Media query: tablets and larger (768px and up) */
 /* start text around bio foto circle early */
 @media screen and (min-width: 350px) {
-    
+
     .circle.selfie {
-        
         shape-outside: circle();
     }
 }
@@ -414,7 +418,7 @@ form input {
         display: inline-grid;
         grid-template-columns: 33% 33% 33%;
     }
-    
+
     #large-contact-button {
         text-align: right;
     }
@@ -422,7 +426,7 @@ form input {
     #title {
         text-align: center;
     }
-    
+
     header h1 {
         font-size: 1.5em;
     }
@@ -452,40 +456,13 @@ form input {
         cursor: pointer;
     }
 
-    /* Adjust about section for wider screen and switch to 2 columns*/
-    #bio-intro {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-gap: 0;
+    /* Center about section for wider screen */
+
+    #about-section {
+        margin: 0 auto;
+        margin-top: 10px;
     }
 
-    /* keep pic left and add a margin on large screens*/
-    #bio-photo {
-        margin-left: 80px;
-    }
-
-    #bio-text {
-        margin-right: 20%;
-        font-size: 1.2em;
-    }
-
-    #intro-p {
-        text-align: left;
-    }
-
-    /* Move Content down on larger screen*/
-    #about {
-        padding-top: 200px;
-    }
-
-    /* Adjust Footer changes */
-    #short-copyright {
-        display: none;
-    }
-
-    footer #long-copyright {
-        display: block;
-    }
 
     /* ################ GALLERY PAGE MEDIA QUERIES ################################# */
     /* setup 3 column */
