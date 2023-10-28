@@ -144,6 +144,15 @@ main {
 }
 
 /* Place doen arrow to encourage scroll down */
+
+#intro-text {
+    text-transform: capitalize;
+    color: #fafafa;
+    position: absolute;
+    top: 60%;
+    left:40px;
+}
+
 #arrow-down {
     color: #fafafa;
     width: 100%;
@@ -462,6 +471,10 @@ form input {
         cursor: pointer;
     }
 
+    #intro-text {
+        font-size: 2em;
+    }
+
     /* Center about section for wider screens */
     #about-section {
         margin: 0 auto;
@@ -526,6 +539,37 @@ form input {
         flex: 25%;
         max-width: 25%;
         padding: 0 5px;
+    }
+
+    /* add normal nav links with big enough screen */
+    /* turn off burger on large screen*/
+    #burger-label {
+        display: none;
+    }
+    
+    header {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    
+    nav{
+        /* position: unset; */
+        display: grid; 
+        grid-column-start: 1;
+        top: 0%;
+        border: none;
+        background: none;
+        width: 400px; 
+    }
+
+    nav li {
+        display: inline;
+    }
+
+    /* ensure title stays in middle grid on large screen*/
+    #title {
+        display: grid;
+        grid-column-start: 2;
     }
 
 }
