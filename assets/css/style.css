@@ -421,7 +421,7 @@ form input {
 /* start text around bio foto circle early */
 @media screen and (min-width: 350px) {
 
-    .circle.selfie {
+    .circle .selfie {
         shape-outside: circle();
     }
 }
