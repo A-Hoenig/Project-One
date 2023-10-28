@@ -77,6 +77,7 @@ header a {
 /* Override burger label color */
 #burger-label {
     color: #fafafa;
+    font-size: 1.3em;
 }
 
 /* setup popup menu and hide it */
@@ -124,7 +125,7 @@ header #large-contact-button {
 }
 
 #burger-label:hover {
-    font-size: 1.1em;
+    font-size: 1.4em;
     cursor: pointer;
 }
 
@@ -326,11 +327,11 @@ footer a:hover {
 }
 
 /* style heading */
-main h2 {
-    margin-top: 80px;
-    margin-bottom: 50px;
-    color: #fafafa;
+#feedback {
+    margin-top: 50px;
+    margin-bottom: 25px;
     text-align: center;
+    color: #fafafa;
     text-transform: uppercase;
 }
 
@@ -506,9 +507,12 @@ form input {
 
     /* Move everything down on larger screen and adjust size of scroll box */
     /* style heading */
-    main h2 {
-        margin-top: 80px;
-        margin-bottom: 100px;
+    #feedback {
+        margin-top: 100px;
+        margin-bottom: 50px;
+        text-align: center;
+        color: #fafafa;
+        text-transform: uppercase;
     }
 
     #scroll-window {
@@ -560,7 +564,7 @@ form input {
         /* position: unset; */
         display: grid;
         grid-column-start: 1;
-        top: 0%;
+        top: 5px;
         border: none;
         background: none;
         width: 400px;
