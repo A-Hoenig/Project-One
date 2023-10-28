@@ -496,10 +496,10 @@ form input {
     }
 
     /* ################ GALLERY PAGE MEDIA QUERIES ################################# */
-    /* setup 3 columns */
+    /* setup 2 columns */
     .image-column {
-        flex: 33%;
-        max-width: 33%;
+        flex: 50%;
+        max-width: 50%;
         padding: 0 5px;
     }
 
@@ -542,13 +542,6 @@ form input {
 
 @media screen and (min-width: 992px) {
 
-    /* setup 4 column  */
-    .image-column {
-        flex: 25%;
-        max-width: 25%;
-        padding: 0 5px;
-    }
-
     /* add normal nav links with big enough screen */
     /* turn off burger on large screen*/
     #burger-label {
@@ -588,4 +581,14 @@ form input {
         grid-column-start: 2;
     }
 
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* setup 4 column  */
+    .image-column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 5px;
+    }
 }
