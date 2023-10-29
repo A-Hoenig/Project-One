@@ -488,13 +488,6 @@ form input {
         display: block;
     }
 
-    /* ################ GALLERY PAGE MEDIA QUERIES ################################# */
-    /* setup 2 columns */
-    .image-column {
-        flex: 50%;
-        max-width: 50%;
-        padding: 0 5px;
-    }
 
     /* ################ TESTIMONIAL PAGE MEDIA QUERIES ################################# */
 
@@ -574,14 +567,4 @@ form input {
         grid-column-start: 2;
     }
 
-}
-
-@media screen and (min-width: 1200px) {
-
-    /* setup 4 column  */
-    .image-column {
-        flex: 25%;
-        max-width: 25%;
-        padding: 0 5px;
-    }
 }
