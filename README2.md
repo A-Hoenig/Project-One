@@ -1,16 +1,15 @@
-# The Quiz Arms
+<a name="readme-top"></a>
+<a href="https://github.com/A-Hoenig/Project-One">
+    <img src="assets/favicon/logo.png" alt="Logo" width="80" height="80">
+  </a>
+# William Cooke Photography Site
 
-![The Quiz Arms shown on a variety of screen sizes](assets/images/the-quiz-arms.png)
+![Summary of Site on different screens](assets/readme-images/am-i-res1.jpg)
 
-Visit the deployed site: [The Quiz Arms](https://kera-cudmore.github.io/TheQuizArms/)
+Visit the deployed site here --> [William Cooke Photography](https://a-hoenig.github.io/Project-One/)
 
-Test your general knowledge and get pub quiz ready!
+This website was built for a hypothetical client interested in showcasing his studio photography work. His express wishes were for a clean professional looking site that is easy to navigate and puts huis work front and center. He also provided a short bio he wanted included on the site and wished for a contact form to be able to generate a list of potential clients. Finally he provided a list of previous customer's feedback to be added on a seperate page as a testimonials section.
 
-Pub Quizzes are played all around the world, but they are especially popular in the UK. It is estimated that over half the pubs in the UK host a regular quiz night, thats roughly 23,600 pubs!
-
-[YouGov](https://yougov.co.uk/topics/lifestyle/explore/activity/Pub_quizzes) show that 98% of people surveyed have heard of a pub quiz, and are rated as the 19th most popular social activity.
-
-During lockdowns pub quizzes remained popular - they just changed format to become virtual. This gave me the idea of creating a quiz site that would feel like a pub quiz, where users could play on their own to improve their general knowledge anywhere and at any time.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/TheQuizArms?color=red&style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/TheQuizArms?color=orange&style=for-the-badge)
@@ -20,41 +19,33 @@ During lockdowns pub quizzes remained popular - they just changed format to beco
 
 ## CONTENTS
 
-* [User Experience](#user-experience-ux)
-  * [User Stories](#user-stories)
-
-* [Design](#design)
-  * [Colour Scheme](#colour-scheme)
-  * [Typography](#typography)
-  * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
-  * [Features](#features)
-    * [The Home Page](#the-home-page)
-    * [The Game Page](#the-game-page)
-    * [The High Scores Page](#the-high-scores-page)
-    * [The 404 Error Page](#the-404-error-page)
-    * [Future Implementations](#future-implementations)
-  * [Accessibility](#accessibility)
-
-* [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
-
-* [Testing](#testing)
-  * [Solved Bugs](#solved-bugs)
-  * [Known Bugs](#known-bugs)
-  
-* [Credits](#credits)
-  * [Code Used](#code-used)
-  * [Content](#content)
-  * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#image-credits">Image Credits</a></li>
+    <li><a href="#testing">Testing</a></li>
+    <li><a href="#accessibility">Accessibility</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
 - - -
 ![The Quiz Arms Banner](documentation/the-quiz-arms-banner.png)

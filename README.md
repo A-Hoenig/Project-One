@@ -145,29 +145,31 @@ All images are sourced [https://www.pexels.com/](Pexels.com) and are license fre
 <br>
 Acknowlegements to the original photographer listed below:
 
-| Image Name    | License | Originator |
-| ------------- | :---: | :--- |
-| portrait1.jpg | pexels | Ali Pazani |
-| portrait2.jpg | pexels | Ali Pazani |
-| portrait3.jpg | pexels | Ali Pazani |
-| portrait4.jpg | pexels | Arsham Haghani |
-| portrait5.jpg | pexels | Bruno Salvadori |
-| portrait6.jpg | pexels | Collis |
-| portrait7.jpg | pexels | Eddson Lens |
-| portrait8.jpg | pexels | George Desipris |
-| portrait9.jpg | pexels | Guilherme Almeida |
-| portrait10.jpg | pexels | Gusher Gill |
-| portrait11.jpg | pexels | Hywel Jones |
-| portrait12.jpg | pexels | Italo Melo |
-| portrait13.jpg | pexels | Matheus Bartelli |
-| portrait14.jpg | pexels | Moose Photos |
-| portrait15.jpg | pexels | Olena Bohovyk |
-| portrait16.jpg | pexels | Pixabay |
-| portrait17.jpg | pexels | Samad Ismayilov |
-| portrait18.jpg | pexels | Spencer Selover |
-| portrait19.jpg | pexels |  Gustavo Santana|
-| portrait20.jpg | pexels | Vitaly Gorbachev |
-| photographer.jpg | pexels | Rockerzzz |
+| Image Name    | License | Originator | Link |
+| ------------- | :---: | :--- | :--- |
+| portrait1.jpg | pexels | Ali Pazani | https://www.pexels.com/photo/woman-wearing-orange-sweater-2613260/ |
+| portrait2.jpg | pexels | Ali Pazani | https://www.pexels.com/photo/woman-wearing-brown-fur-beanies-and-white-and-balck-top-2681751/ |
+| portrait3.jpg | pexels | Ali Pazani | https://www.pexels.com/photo/woman-in-grey-long-sleeved-shirt-2787341/ |
+| portrait4.jpg | pexels | Arsham Haghani | https://www.pexels.com/photo/photo-of-woman-closing-her-eyes-3429877/ |
+| portrait5.jpg | pexels | Bruno Salvadori | https://www.pexels.com/photo/light-fashion-person-red-2330169/ |
+| portrait6.jpg | pexels | Collis | https://www.pexels.com/de-de/foto/graustufen-seitenansicht-portratfoto-des-mannes-der-mit-geschlossenen-augen-aufwirft-3031397/ |
+| portrait7.jpg | pexels | Marlon Schmeiski | https://www.pexels.com/photo/woman-standing-next-to-yellow-wall-3839904/ |
+| portrait8.jpg | pexels | George Desipris | https://www.pexels.com/de-de/foto/graustufenfoto-des-mannes-mit-bart-818261/ |
+| portrait9.jpg | pexels | Guilherme Almeida | https://www.pexels.com/de-de/foto/1858175/ |
+| portrait10.jpg | pexels | Gusher Gill | https://www.pexels.com/photo/portrait-of-woman-in-traditional-clothing-and-with-henna-tattoos-18633023/ |
+| portrait11.jpg | pexels | Hywel Jones | https://www.pexels.com/photo/attractive-woman-wearing-white-top-2744193/ |
+| portrait12.jpg | pexels | Italo Melo | https://www.pexels.com/de-de/foto/portratfoto-des-lachelnden-mannes-mit-gekreuzten-armen-die-vor-der-weissen-wand-stehen-2379004/ |
+| portrait13.jpg | pexels | Arsham Haghani | https://www.pexels.com/photo/photo-of-woman-with-short-hair-3445218/ |
+| portrait14.jpg | pexels | Moose Photos | https://www.pexels.com/photo/woman-wearing-pink-collared-half-sleeved-top-1036623/ |
+| portrait15.jpg | pexels | Olena Bohovyk | https://www.pexels.com/photo/grayscale-photo-of-man-holding-round-mirror-3635872/ |
+| portrait16.jpg | pexels | Pixabay | https://www.pexels.com/de-de/foto/graustufenfoto-der-frau-im-schwarzen-neckholder-kleid-mit-u-ausschnitt-60712/ |
+| portrait17.jpg | pexels | Samad Ismayilov | https://www.pexels.com/photo/woman-wearing-black-scoop-neck-top-735552/ |
+| portrait18.jpg | pexels | Spencer Selover | https://www.pexels.com/de-de/foto/mann-der-t-shirt-mit-der-rechten-hand-nahe-wange-tragt-428333/ |
+| portrait19.jpg | pexels |  Gustavo Santana| https://www.pexels.com/de-de/foto/mann-mit-zigarette-im-mund-1933873/ |
+| portrait20.jpg | pexels | Vitaly Gorbachev | https://www.pexels.com/zh-tw/photo/18652728/ |
+| photographer.jpg | pexels | Rockerzzz | https://www.pexels.com/de-de/foto/mann-fotografiert-vor-camea-1265718/ |
+| testimonials-bg | unsplash | Arsham Haghani | https://unsplash.com/photos/woman-in-black-v-neck-shirt-Ef3AOkt6hHg |
+| contact-bg | pixabay | Krivitskiy | https://pixabay.com/de/photos/portrait-m%C3%A4dchen-studio-weiblich-4181643/ |
 
 
 
