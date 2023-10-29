@@ -25,12 +25,10 @@ In summary the site should contain these basic sections:
 ### Built With
 * [https://www.gitpod.io/](GitPod)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/TheQuizArms?color=red&style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/TheQuizArms?color=orange&style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/kera-cudmore/TheQuizArms?color=yellow&style=for-the-badge)
-![GitHub top language](https://img.shields.io/github/languages/top/kera-cudmore/TheQuizArms?color=green&style=for-the-badge)
-![W3C Validation](https://img.shields.io/w3c-validation/html?logoColor=blue&style=for-the-badge&targetUrl=https%3A%2F%2Fkera-cudmore.github.io%2FTheQuizArms%2F)
-
+![GitHub last commit](https://img.shields.io/github/last-commit/A-Hoenig/Project-One?color=red&style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/A-Hoenig/Project-One?color=orange&style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/A-Hoenig/Project-One?color=yellow&style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/A-Hoenig/Project-One?color=green&style=for-the-badge)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -52,18 +50,8 @@ The finished site is hosted with gitpages under:
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-      </ul>
-    </li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#user-experience">User Experience</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -286,34 +274,23 @@ The only issue regarding browser support was found with safari. On both desktop 
 ![Safari rough scroll](assets/readme-images/scroll.gif)
 
 
-### Known Bugs
+### Known / Fixed Bugs
 
-* When viewing on screens that use touch rather than a cursor, the colour change for the answer button selected is not immediately obvious as the hover state remains on the button. If the user clicks away from the button the colour can then been seen.
+* When expanding the browser window the burger icon jump imperceptibily whe passing the 768px screen width media query. This is most likely due to the fact that the header element is switched to a different grid spacing and the align-items: center; overrides the burger-label top:; property.
 
-  ![Touch Button Colour](documentation/touch-button-colour.gif)
+* on the gallery page when displaying a 2 column grid, the flex property aligning the individual photos leaves a blank slot after the 5th photo. (start of a new div) - **SOLVED**
 
-* There is a a warning displaying in the console on the live page. This error seems to be because GitHub hosted pages disable googles 3rd party cookie alternative FLoC, which then throws this error. The error doesn't affect the site in any way.
+A solution was implemented using flex grow on a single div that automativally arranges the pictures into strechable columns. The page now dynamically adjusts equal sized tiles to fill the screen thus removing the need for media queries and allowing for dynamic columns and rows as needed. (solution found under: <a href="https://blog.logrocket.com/responsive-image-gallery-css-flexbox/">Click here</a> )
 
-  ![Console warning](documentation/interest-cohort-error.png)
 
-* When friends tested the site they found that very rarely a game will get stuck on a question, and it will not populate a new question but the question no counter continues to increase. This issue only seems to be if a large number of games are played consecutively, possibly using up the questions in the API. I have not been able to replicate this issue to troubleshoot further.
-  ![Question overloaded](documentation/questions-depleted.gif)
-
-- - -
 
 ## Credits
 
 ### Code Used
 
-* I used [this You Tube tutorial](https://www.youtube.com/watch?v=XH5OW46yO8I) to learn how to create a modal for the how to play section.
+* I used the Code Institute - Love Running walkthrough project as the basis for the pop up nav bar.
+* The gallery bug fix was impelementd using this blog post: <a href="https://blog.logrocket.com/responsive-image-gallery-css-flexbox/">How to create a responsive image gallery with CSS flexbox</a> )
 
-* As the API I used for the questions declared the correct answer and then had an array of incorrect answers, I had to find a way to shuffle the answers together so that the correct answer wouldn't always appear on the same button. Research led me to the Fisher-Yates Shuffle. Other methods of shuffling can favour some items in the array more than others, however the Fisher Yates Shuffle allows for a more even spread of probability of the answer being placed on each button. I used the following [YouTube tutorial](https://www.youtube.com/watch?v=eATLMjs7y4s&list=PL5egNEXQTWmFHAoWFVRLNAvD-9zzyWVxA&index=3) to further adapt the shuffle I had researched on W3Schools to work with the data I had.
-
-As the JavaScript modules of the Code Institute Diploma did not cover local storage, I had to do a bit of research into this topic myself in order to set up the high scores section of my site.
-
-* I used this [video tutorial](https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=9) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) which taught me to save the team name and score to an object, that would then be saved into an array in local storage. It also explained how to sort the items in the array into descending score order, and then to splice the array, I have used the MAX_HIGH_SCORES as my point to splice.
-
-* I used this [video tutorial](https://www.youtube.com/watch?v=jfOv18lCMmw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=10) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) to learn how to insert the local storage into the high scores page.
 
 <!-- IMAGE-CREDITS -->
 ## Image Credits
@@ -350,6 +327,15 @@ Acknowlegements to the original photographer listed below:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## License
+
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png) 
+<br>
+This project is license free and part of Code Institute Full Stack Developer Course.
+It is for educational use only.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTACT -->
 ## Contact
 
@@ -363,14 +349,6 @@ Project Link: [https://github.com/A-Hoenig/Project-One/tree/main](https://github
 
 I would like to acknowledge the following people:
 
-* Adegbenga  Adeye - My Code Institute Mentor.
+* Jubril Akolade - My Code Institute Mentor for the guidance.
 
-* Bim Williams - For being a great sounding board for me when I faced issues with moving onto the next question in the quiz, and for helping solve the issue faced with the HTML entity characters in the answer buttons.
-
-* [Dave Horrocks](https://github.com/daveyjh) - For taking the time to walk through my code with me when I was struggling with adding event listeners.
-
-* [Emanuel Silva](https://github.com/manni8436) - For cheering me on when I was struggling with the JavaScript, and for testing the site.
-
-* [Abi Harrison](https://github.com/Abibubble) - For being a great rubber duck and helping debug, helping to test the site and for sharing her knowledge on accessibility.
-
-* The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to play the quiz and look over the code.
+* Milly - for helping with the tricky stuff, especially github and devtools - thanks!
