@@ -1,49 +1,82 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
+# William Cooke Photography Site
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/A-Hoenig/Project-One">
+
+<a href="https://github.com/A-Hoenig/Project-One">
     <img src="assets/favicon/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">CODE INSTITUTE PROJECT ONE</h3>
 
-  <p align="center">
-    Photographer's Website
-    <br>
-    <br />
-    <a href="https://github.com/A-Hoenig/Project-One/"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/A-Hoenig/Project-One/">View Demo</a>
-    ·
-    <a href="https://github.com/A-Hoenig/Project-One/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/A-Hoenig/Project-One/issues">Request Feature</a>
-  </p>
-</div>
+
+![Summary of Site on different screens](assets/readme-images/am-i-res1.jpg)
+
+## CONTENTS
+
+<!-- TABLE OF CONTENTS -->
+
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#user-experience">User Experience</a></li>
+    <li><a href="#design">Design</a></li>
+    <li><a href="#technologies-used">Technologies</a></li>
+    <li><a href="#repository">Deployment</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#image-credits">Image Credits</a></li>
+    <li><a href="#testing">Testing</a></li>
+    <li><a href="#accessibility">Accessibility</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+This website was built for a hypothetical client interested in showcasing his studio photography work. His express wishes were for a clean professional looking site that is easy to navigate and puts huis work front and center. He also provided a short bio he wanted included on the site and wished for a contact form to be able to generate a list of potential clients. Finally he provided a list of previous customer's feedback to be added on a seperate page as a testimonials section.
+
+In summary the site should contain these basic sections:
+
+<ol>
+  <li>Home / Landing page showcasing primary work</li>
+  <li>About section with hero image to introduce the photographer</li>
+  <li>Gallery Page to show primary selected work</li>
+  <li>Testimonials page to show previous satisfied customers</li>
+  <li>Contact page / form to allow contacting the photographer</li>
+</ol>
+
+### Built With
+* [https://www.gitpod.io/](GitPod)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/A-Hoenig/Project-One?color=red&style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/A-Hoenig/Project-One?color=orange&style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/A-Hoenig/Project-One?color=yellow&style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/A-Hoenig/Project-One?color=green&style=for-the-badge)
+
+<p align="right">(<a href="#contents">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Accessing the Site
+
+The finished site is hosted with gitpages under:
+
+<br>
+<a href="https://a-hoenig.github.io/Project-One/">William Cooke Photography</a>
+
+
+<br/>
+
+
+## CONTENTS
 
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#user-experience">User Experience</a></li>
+    <li><a href="#design">Design</a></li>
+    <li><a href="#technologies-used">Technologies</a></li>
+    <li><a href="#repository">Deployment</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#image-credits">Image Credits</a></li>
     <li><a href="#testing">Testing</a></li>
@@ -53,95 +86,279 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## User Experience
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+To ease navigation, standard practices were used to allow the visitor quick access to the site pages via a Navigation bar. 
 
-The aim of this project was to develop a responsive and functional website of 3 or more pages using HTML and CSS only.
-As a fundamental concept I chose a Photographer's website that showcases his/her best work and lets users contact them for hire.
+In keeping with the 'mobile first' philosophy, on smaller screens the Navbar is consolidated into a 'menu burger icon' that presents a drop down view of the navigation bar when pressed.
 
-The design objective was to maximize screen realestate to let the pictures "speak for themselves" while at the same time offering known and established navigational items to guide the user to the usual contact links (social media, contact form, etc)
+Other elements such as the Photographers signature, teh contact button and copyright info are all dynamically sized to make full use of the available screen realestate.
 
-The landing page will serve as the central hub to navigate to other areas. These are:
+hover events are utilized thoughout to give feedback to the user that they are interacting with a clickable button.
 
-<ol>
-  <li>Home / Landing page showcasing primary work</li>
-  <li>About section underneath hero image to introduce photographer</li>
-  <li>Gallery Page to show additional work</li>
-  <li>Testimonials page to show previous satisfied customers</li>
-  <li>Contact page / form to allow contacting the photographer</li>
-</ol>
+Bold Font in the navigation bar visibly informs the user which page they are on.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Design
 
+### Colour Scheme
 
+The web interface was deliberately chosen with a monochrome dark grey and white look to offset the interface and provide a contrast to the pictures being presented.
+Thte color #fafafa was used for text and button elements to reduce teh stark contrast of pure white on black.
 
-### Built With
+### Typography
 
-* [https://www.gitpod.io/](GitPod)
+2 Fonts are used on the site for minimalist design. 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<a href="https://fonts.google.com/specimen/Montserrat?query=montserrat">Montserrat</a> Used for all site text and headings.
 
+![Montserrat Font Example](assets/readme-images/montserrat-sample.png)
 
+<a href="https://fonts.google.com/specimen/Freehand?query=freehand">Freehand</a> used only for the Site Title and the photographers signature.
 
-<!-- GETTING STARTED -->
-## Accessing the Site
+![Freehand Font Example](assets/readme-images/freehand-sample.png)
 
-The Finished site is hosted under gitpages under:
-<br>
-<a href="">Click Here</a>
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 
+### Wireframes
 
-<!-- CONTRIBUTING -->
-## Contributing
+Wireframes were created for mobile, tablet and desktop using balsamiq.
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+![Home Page](assets/readme-images/mockup-home.png)
+![About Section](assets/readme-images/mockup-about.png)
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+![Gallery Page](assets/readme-images/mockup-gallery.png)
+![Testimonials Page](assets/readme-images/mockup-testimonials.png)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
-<!-- LICENSE -->
-## License
+![Contact Page](assets/readme-images/mockup-contact.png)
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png) 
-<br>
-This project is license free and part of Code Institute Full Stack Developer Course
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+#### The Home Page
+
+The home page serves as the landing page and aims to impress the visitor with a striking studio portrait image that fills the screen on a minimal interface. The bold white text instantly informs the visitor what the purpose of the site is.
+
+![Home page image](assets/readme-images/screenshot-home.jpg)
+
+The navigation bar and footer are fixed to keep the minimal site controls always visible. 
+
+A single white centered arrow invites the user to scroll down to view the next section - in this case the about summary of the photographer.
+
+#### The About Section
+
+![About Page image](assets/readme-images/screenshot-about.jpg)
+
+The about section shows a self portrait of the Photographer and his welcome text to invite you in and share his passion. The text dynamically adjusts around the circular photo on larger screens.
+
+<p align="right">(<a href="#contents">back to top</a>)</p>
+
+#### The Gallery Page
+
+The gallery page is once again designed to put the pictures first. Only minimal margins are used to allow maximum content. Media queries dynamically adjust the number of columns as more screensize becomes available. For phone displays only a single column is used with each picture taking up the full width. On the largest screen, 4 columns are used to fill the screen with images.
+
+A simple white border is used as a mouse over effect to highlight a specific picture the user is interested in.
+
+![Gallery Page](assets/readme-images/screenshot-gallery.jpg)
+
+#### The Testimonials Page
+
+This page uses a marquee effect of vertically scrolling text to showcase previous customers feedback. The text is scolled in a simple transparent frame that dynamically resizes for screen realestate.
+
+![Testimonials Page Image](assets/readme-images/screenshot-testimonials.jpg)
+
+<p align="right">(<a href="#contents">back to top</a>)</p>
+
+#### The Contact Page
+
+The contact form invites the user to fill in their details and select what type of photoshoot they might be interested in. The form dynamically resizes to the left on larger screens to keep the interface manageable. The same form background styling is used as throughout the site.
+
+![Contact Page image](assets/readme-images/screenshot-contact.jpg)
+
+#### Future Implementations
+
+Future developement of the site would include:
+
+1. Clickable images in the gallery to present a photo on full screen.
+2. Left and right arrows to allow the user to step through the images
+3. Dynamic effects and display of the pop up menu should be animated to make the transition less abrupt and convey a further sense of prefessionalism.
+4. Automated slide show of a collection of lading images to offer some variety on the main homepage.
+
+<p align="right">(<a href="#contents">back to top</a>)</p>
+
+## Accessibility
+
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
+
+* Using semantic HTML.
+* Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
+* Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
+* Ensuring that there is a sufficient colour contrast throughout the site.
+* Using detailed alt descriptions of all images and adding aria-labels for navigational elements where neccessary.
+
+![Contrast Button](assets/readme-images/button-hover.gif)
+
+## Technologies Used
+
+#### Languages:
+
+HTML, CSS only.
+
+* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+
+* [Git](https://git-scm.com/) - For version control.
+
+* [Github](https://github.com/) - To save and store the files for the website.
+
+* [GitPod](https://gitpod.io/) - IDE used to create the site.
+
+* [GithubPages](https://pages.github.com/) - Hosts the deployed website
+
+* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
+* [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+* [Favicon.io](https://favicon.io/) To create favicon.
+
+* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+* [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
+
+* [ChatGPT](https://chat.openai.com/auth/login) - AI Large Language Model used to generate fake customer testimonials and photographer bio
+
+* [FakeNameGenerator](https://www.fakenamegenerator.com/) - Generates random full profile of a fake person
+
+* [MOV to GIF](https://cloudconvert.com/mov-to-gif) - to generate gifs from screen recordings
+
+<p align="right">(<a href="#contents">back to top</a>)</p>
+
+## Repository
+
+### Deployment
+
+The site is deployed using GitHub Pages - [William Cooke Photography](https://a-hoenig.github.io/Project-One/index.html).
+
+To Deploy the site using GitHub Pages:
+
+1. Login (or signup) to Github.
+2. Go to the repository for this project, [A-Hoenig/Project-One](https://github.com/A-Hoenig/Project-One).
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [A-Hoenig/Project-One](https://github.com/A-Hoenig/Project-One)
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [A-Hoenig/Project-One](https://github.com/A-Hoenig/Project-One)
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+<p align="right">(<a href="#contents">back to top</a>)</p>
+
+## Testing
+
+### Validator Testing
+
+#### HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+
+#### CSS
+  - No major errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+
+  a single parse error is returned that could not be resolved. Research into the correct syntax of the circle() porperty (used to align the text around the circular image in the about section) indicates the correct use of the property. This is possibly an issue with the validator itself. Nevertheless, the instruction works as intended.
+
+  ![CSS Validator Parse Error](assets/readme-images/css-error.png)
+
+### Manual Testing
+| Feature        | Expect | Action | Result |
+| :-------------- | :------ | :------ | :------ |
+|responsive site|elements resize when browser window changes|resizing tested on all browsers|dynamic elements and media queries work as expected|
+|external links open in new tab|new tabs opens when clicked|tested on all browsers and iphone|works as expected|
+|click burger to show nav bar|nav bar is displayed below burger icon|tested on all browsers|works as expected|
+|nav links take user to selected page|responsive links when clicked switch to page|tested on all browsers|works as expected|
+|click envelope to open contact page|click takes user to contact page|tested on all browsers|works as expected|
+|interactive mouse over|all clickable elements give user feedback|checked on all browsers|works as expected on non touch devices|
+|marquee testimonials|testimonial page displays all feedback elements as vertical scrolling text|tested on all browsers|mostly works, Safari scrolling is rough|
+|user form submittable|user can send request data and sees what was recieved server side|tested with Chrome|works as expected|
+|user form text entry validation|required text entry and data format is set|leaving blank or not entering email is flagged|works as expected|
+
+<p align="right">(<a href="#contents">back to top</a>)</p>
+
+### Responsiveness
+
+tested manually as well as with Am I Responsive Website
+![Am I responsive](assets/readme-images/am-i-res1.jpg)
+![Am I responsive](assets/readme-images/am-i-res2.jpg)
+
+<p align="right">(<a href="#contents">back to top</a>)</p>
+
+![Am I responsive](assets/readme-images/am-i-res3.jpg)
+![Am I responsive](assets/readme-images/am-i-res4.jpg)
+
+<p align="right">(<a href="#contents">back to top</a>)</p>
+
+
+### Accessibility
+
+An accessibility score of 100 was achieved when anaylsing the site using Google Chrome Dev TGools Lighthouse.
+
+![Chrome Lighthouse Results](assets/readme-images/lighthouse-result.png)
+
+<p align="right">(<a href="#contents">back to top</a>)</p>
+
+
+
+### Browser Compatibility
+
+The site was tested on three most popular browsers for functionality:
+
+![Most Popular Browsers](assets/readme-images/popular-browsers.png)
+
+The only issue regarding browser support was found with safari. On both desktop and mobile versions of Safari, the marquee scrolling feature used in the testimonials page is a little rough and does not scroll smooth. On all other broswers, the feature rendered with no issues.
+
+ <pre>|       SAFARI        |         CHROME         |          EDGE           |</pre>
+![Safari rough scroll](assets/readme-images/scroll.gif)
+
+
+### Known / Fixed Bugs
+
+* When expanding the browser window the burger icon jump imperceptibily whe passing the 768px screen width media query. This is most likely due to the fact that the header element is switched to a different grid spacing and the align-items: center; overrides the burger-label top:; property.
+
+* on the gallery page when displaying a 2 column grid, the flex property aligning the individual photos leaves a blank slot after the 5th photo. (start of a new div) - **SOLVED**
+
+A solution was implemented using flex grow on a single div that automativally arranges the pictures into strechable columns. The page now dynamically adjusts equal sized tiles to fill the screen thus removing the need for media queries and allowing for dynamic columns and rows as needed. (solution found under: <a href="https://blog.logrocket.com/responsive-image-gallery-css-flexbox/">Click here</a> )
+
+
+
+## Credits
+
+### Code Used
+
+* I used the Code Institute - Love Running walkthrough project as the basis for the pop up nav bar.
+* The gallery bug fix was impelementd using this blog post: <a href="https://blog.logrocket.com/responsive-image-gallery-css-flexbox/">How to create a responsive image gallery with CSS flexbox</a> )
+
 
 <!-- IMAGE-CREDITS -->
 ## Image Credits
 
-All images are sourced [https://www.pexels.com/](Pexels.com) and are license free.
+All images are sourced from stock image sites (pexels, unsplash, pixabay) and are license free.
 <br>
 Acknowlegements to the original photographer listed below:
 
@@ -171,9 +388,14 @@ Acknowlegements to the original photographer listed below:
 | testimonials-bg | unsplash | Arsham Haghani | https://unsplash.com/photos/woman-in-black-v-neck-shirt-Ef3AOkt6hHg |
 | contact-bg | pixabay | Krivitskiy | https://pixabay.com/de/photos/portrait-m%C3%A4dchen-studio-weiblich-4181643/ |
 
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
+## License
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png) 
+<br>
+This project is license free and part of Code Institute Full Stack Developer Course.
+It is for educational use only.
 
 <!-- CONTACT -->
 ## Contact
@@ -182,114 +404,12 @@ Alex Hönig -  LimeyDeveloper@pm.me
 
 Project Link: [https://github.com/A-Hoenig/Project-One/tree/main](https://github.com/A-Hoenig/Project-One/tree/main)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Acknowledgments
 
-<!-- TESTING -->
-## Testing
+I would like to acknowledge the following people:
 
-### Browser Testing
-| Browser         | Layout | Functionality |
-| :--------------- | :--: | :--: |
-| Chrome          | x | x |
-| Edge            | x | x |
-| Firefox         | x | x |
-| Safari          | x | x |
-| IE              | Obsolete |
+* Jubril Akolade - My Code Institute Mentor for the guidance.
 
-### Manual Testing
-| Feature        | Expect | Action | Result |
-| -------------- | :------: | :------: | :------: |
-|                |        |        |        |
-|                |        |        |        |
-|                |        |        |        |
-|                |        |        |        |
-|                |        |        |        |
+* Milly - for helping with the tricky stuff, especially github and devtools - thanks!
 
-### Validator Testing
-
-#### HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-
-#### CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
-### Accessibility
-
-
-
-
-### Unfixed Bugs
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- Acknowledgements -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-### Technologies Used
-
-* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
-
-* [Git](https://git-scm.com/) - For version control.
-
-* [Github](https://github.com/) - To save and store the files for the website.
-
-* [GitPod](https://gitpod.io/) - IDE used to create the site.
-
-* [GithubPages](https://pages.github.com/) - Hosts the deployed website
-
-* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
-
-* [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
-
-* [Favicon.io](https://favicon.io/) To create favicon.
-
-* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
-
-* [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
-
-* [ChatGPT](https://chat.openai.com/auth/login) - AI Large Language Model used to generate fake customer testimonials and photographer bio
-
-* [FakeNameGenerator](https://www.fakenamegenerator.com/) - Generates random full profile of a fake person
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
-[GitPod-url]: https://www.gitpod.io/
-
+<p align="right">(<a href="#william-cooke-photography-site">back to top</a>)</p>
