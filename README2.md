@@ -1,4 +1,5 @@
 <a name="readme-top"></a>
+
 <a href="https://github.com/A-Hoenig/Project-One">
     <img src="assets/favicon/logo.png" alt="Logo" width="80" height="80">
   </a>
@@ -6,16 +7,43 @@
 
 ![Summary of Site on different screens](assets/readme-images/am-i-res1.jpg)
 
-Visit the deployed site here --> [William Cooke Photography](https://a-hoenig.github.io/Project-One/)
-
+<!-- ABOUT THE PROJECT -->
+## About The Project
 This website was built for a hypothetical client interested in showcasing his studio photography work. His express wishes were for a clean professional looking site that is easy to navigate and puts huis work front and center. He also provided a short bio he wanted included on the site and wished for a contact form to be able to generate a list of potential clients. Finally he provided a list of previous customer's feedback to be added on a seperate page as a testimonials section.
 
+In summary the site should contain these basic sections:
+
+<ol>
+  <li>Home / Landing page showcasing primary work</li>
+  <li>About section with hero image to introduce the photographer</li>
+  <li>Gallery Page to show primary selected work</li>
+  <li>Testimonials page to show previous satisfied customers</li>
+  <li>Contact page / form to allow contacting the photographer</li>
+</ol>
+
+### Built With
+* [https://www.gitpod.io/](GitPod)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/TheQuizArms?color=red&style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/TheQuizArms?color=orange&style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/kera-cudmore/TheQuizArms?color=yellow&style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/kera-cudmore/TheQuizArms?color=green&style=for-the-badge)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?logoColor=blue&style=for-the-badge&targetUrl=https%3A%2F%2Fkera-cudmore.github.io%2FTheQuizArms%2F)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Accessing the Site
+
+The finished site is hosted with gitpages under:
+
+<br>
+<a href="https://a-hoenig.github.io/Project-One/">William Cooke Photography</a>
+
+
+<br/>
+
 
 ## CONTENTS
 
@@ -48,140 +76,96 @@ This website was built for a hypothetical client interested in showcasing his st
 </details>
 
 - - -
-![The Quiz Arms Banner](documentation/the-quiz-arms-banner.png)
+
 
 ## User Experience (UX)
 
-### User Stories
+To ease navigation, standard practices were used to allow the visitor quick access to the site pages via a Navigation bar. 
 
-#### First Time Visitor Goals
+In keeping with the 'mobile first' philosophy, on smaller screens the Navbar is consolidated into a 'menu burger icon' that presents a drop down view of the navigation bar when pressed.
 
-* I want to take part in a pub quiz online and improve my general knowledge. I want to be able to play at any time, anywhere.
-* I want the site to be responsive to my device.
-* I want the site to be easy to navigate.
+Other elements such as the Photographers signature, teh contact button and copyright info are all dynamically sized to make full use of the available screen realestate.
 
-#### Returning Visitor Goals
-
-* I want to be able to choose a level of difficulty that I feel is appropriate for me, based on my experience from my first visit to the site.
-
-#### Frequent Visitor Goals
-
-* I want to be able to adjust the difficulty level to keep improving my knowledge.
-* I want to be able to log my high scores to see how I am performing.
-
+hover events are utilized thoughout to give feedback to the user that they are interacting with a clickable button.
 - - -
 
 ## Design
 
 ### Colour Scheme
 
-As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users. Red and green  are very typical colours in traditional British public houses, with the red & green used for upholstery.
-
-In my css file I have used variables to declare colours, and then used these throughout the css file. I was recently introduced to this method during a hackathon - it is a useful convention to use as it allows you to alter the colour throughout the website if you decide to update a colour, by changing the colour once in the variable.
-
-* I have used `#f5f5f5` & `#000000` as the primary and secondary colours used for the sites text.
-* I have used `#292929` as the overlay used over the sites background image.
-* I have used `#a50c3c` for the border of the modal and to display the wrong answers.
-* I have used `#047638` to display the correct answer.
-
-  ![The Quiz Arms Color Scheme](documentation/color-scheme.webp)
+The web interface was deliberately chosen with a monochrome dark grey and white look to offset the interface and provide a contrast to the pictures being presented.
+Thte color #fafafa was used for text and button elements to reduce teh stark contrast of pure white on black.
 
 ### Typography
 
-Google Fonts was used to import the chosen fonts for use in the site.
+2 Fonts re used on the site for simplicity. 
 
-* For the Page Title I have used the google font [Almendra](https://fonts.google.com/specimen/Almendra?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=almendra). Almendra is based on a calligraphy style and I have chosen it as it looks like the type of font you would see on a pubs name sign, slightly medieval looking and grand.
+<a href="https://fonts.google.com/specimen/Montserrat?query=montserrat">Montserrat</a> Used for all site text and headings.
 
-![Almendra Font Example](documentation/almendra.webp)
+![Montserrat Font Example](assets/readme-images/montserrat-sample.png)
 
-* For the body of the page I have used the google font [Quicksand](https://fonts.google.com/specimen/Quicksand?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=quicksand). QuickSand is a sans-serif font which has lovely clean lines. I have chosen to use a sans-serif font for the body of the page as studies have found that sans-serif fonts are generally more legible to read on a screen.
+<a href="https://fonts.google.com/specimen/Freehand?query=freehand">Freehand</a> used only for the Site Title and the photographers signature.
 
-![Quicksand Font Example](documentation/quicksand.webp)
+![Freehand Font Example](assets/readme-images/freehand-sample.png)
 
-### Imagery
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-As the website is called The Quiz Arms, I wanted to use an image for the page background of a pub to give the user the feeling that they are participating in a pub quiz.
 
 ### Wireframes
 
 Wireframes were created for mobile, tablet and desktop using balsamiq.
 
-![Home Page](documentation/wireframes/homewireframe.webp)
-![Difficulty Page](documentation/wireframes/difficultywireframe.webp)
-![Game Page](documentation/wireframes/gamewireframe.webp)
-![High Scores Page](documentation/wireframes/highscorewireframe.webp)
+![Home Page](assets/readme-images/mockup-home.png)
+![About Section](assets/readme-images/mockup-about.png)
+![Gallery Page](assets/readme-images/mockup-gallery.png)
+![Testimonials Page](assets/readme-images/mockup-testimonials.png)
+![Contact Page](assets/readme-images/mockup-contact.png)
 
-### Features
-
-The website is comprised of a home page, a games page, a high scores page, a 404 error page & a 500 error page.
-
-All Pages on the website are responsive and have:
-
-* A favicon in the browser tab.
-
-  ![favicon](documentation/favicon-image.webp)
-
-* The title of the site at the top of every page. This title also acts as a link back to the home page.
-  ![The Quiz Arms Title](documentation/the-quiz-arms-banner.png)
-
-* Every page will display a custom cursor when on a button. This feature is not available on mobile touch devices.
-
-![Custom Cursor](documentation/features/custom-cursor.gif)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### The Home Page
 
-The home page of The Quiz Arms displays the sites name as a title and then a container which holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. Below this are three buttons, how to play, play and high scores.
+The home page serves as the landing page and aims to impress the visitor with a striking studio portrait image that fills tehe screen as much as possible on a minimal interface. The bold white text instantly informs the visitor what the ppurpose of the site is.
 
-![Home page image](documentation/features/index.png)
+![Home page image](assets/readme-images/screenshot-home.jpg)
 
-The how to play  button opens a modal showing the user how to play the game. The modal contains a close button which will close the modal, and show the home page again.
+The navigation bar and footer are fixed to keep the minimal site controls always visible. 
 
-![Modal open image](documentation/features/modal.png)
+A single white centered arrow invites the user to scroll down to view the next section - in this case the about summary of the photographer.
 
-The play button will redirect the user to the game page to select the difficulty of their quiz and the high Scores button redirects the user to the high scores page.
+#### The About Section
 
-#### The Game Page
+![About Page image](assets/readme-images/screenshot-about.jpg)
 
-The game page displays the sites name as a title. This also acts as a link back to the home page. Initially on the game page you will be shown a container with three buttons to select the difficulty of the quiz the user can choose from.
+The about section give a self portrait of the Photographer and his welcome text to invite you in and share his passion. The text dynamically adjusts around the circular photo on larger screens.
 
-![Image of the game page difficulty selection buttons](documentation/features/difficulty.png)
+#### The Gallery Page
 
-Once the user has selected their difficulty they will then be shown the quiz area. The quiz area contains the question and the 4  answer choices.
+The gallery page is once again designed to put the pictures first. Only minimal margins are used to allow maximum content. Media queries dnamically adjust the numbe rof columns as more screensize becomes available. For phone displays only a single colum is used with each picture taking up the full width. On teh largest screen, 4 columns are used to fill the screen with images.
 
-when a user selects an answer, they will then be prevented from selecting any more answers. The quiz area border and the button selected will change styles depending on whether the answer selected was correct or incorrect. If the answer selected was correct, the score counter will add 10 to the score total. When the user clicks the next button the question no counter will increase by 1. If the user selects the wrong answer, the button selected will display red, and the correct answer will display as green.
+A simple white border is used as a mouse over effect to highlight a specific picture the user is interested in.
 
-![Image of quiz area](documentation/features/quiz.png)
+![Gallery Page](assets/readme-images/screenshot-gallery.jpg)
 
-Once a user has answered the 15 questions they will be taken to the end of the game which will allow them to enter their team name and submit it to be entered onto the high scores page if it is in the top 10 scores. The submit button is disabled by default to prevent the user from submitting without a team name. This is made clear to the user as the cursor will show not allowed when hovered over the submit button.
+#### The Testimonials Page
 
-![End of game](documentation/features/end.png)
+THis page uses a marquee effect of vertically scrolling text to showcase previous customers feedback. The text is scolled in a simple transparent frame that dynamically resizes for screen realestate.
 
-#### The High Scores Page
+![Testimonials Page Image](assets/readme-images/screenshot-testimonials.jpg)
 
-The high scores page displays the sites name as a title. This also acts as a link back to the home page. The page then displays the high scores recorded - showing the team name a user chooses and their score. The high scores page will list the top ten scores recorded. Underneath the high scores are two buttons to allow the user to play again or be redirected to the home page.
+#### The Contact Page
 
-![High Scores Page Image](documentation/features/highscores.png)
+The contact form invites the user to fill in their details and select what type of possible photoshoot they might be interested in. The form dynamically resizes to teh left on larger screens to keep the interface manageable. The same background is used as throughout the site.
 
-#### The 404 Error Page
-
-The 404 error page displays the sites name as a title. This also acts as a link back to the home page. Within the page container there is a sorry message explaining to the user that there has been an error directing them to the page they were looking for. The user is then given a choice of three buttons to redirect them to other pages on the site, the home page, the games page and the high scores page.
-
-![Error page image](documentation/features/404.png)
-
-#### The 500 Error Page
-
-The 500 error page displays the sites names as a title, which also acts as a link back to the home page. Within the container is an error message that tells the user sorry there seems to be an issue retrieving the quiz data. Two buttons for the home page and the high scores page are below. I did not add the play game button here, as a user will been directed to this page if there is an error calling the API.
-
-![500 Error Page](documentation/features/500.png)
+![Contact Page image](assets/readme-images/screenshot-contact.jpg)
 
 #### Future Implementations
 
-In future implementations I would like to:
+Future developement of the site would include:
 
-1. Give users the option to select the amount of questions in their quiz.
-2. Look into making the quiz a multiplayer game, so that it could be played by teams, which would make the quiz even more like a pub quiz.
-3. Create a back end database to enable me to store scores which would then allow you to see how you scored against other players.
-4. Look further into the accessibility for people with colour blindness, perhaps by adding symbols such as a tick or cross next to the answer when they are checked.
+1. Clickable images in the gallery to present a photo on full screen.
+2. Fullscreen display would then add left and right arrows to allow the user to step through the images
+3. Dynamic effects and display of the pop up menu should be animated to make the transition less abrupt and convey a further sense of prefessionalism
 
 ### Accessibility
 
@@ -191,25 +175,17 @@ I have been mindful during coding to ensure that the website is as accessible fr
 * Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
 * Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
 * Ensuring that there is a sufficient colour contrast throughout the site.
+* Using detailed alt descriptions of all images and adding aria-labels for navigational elements where neccessary.
 
-![contrast button](documentation/contrast-btn.png) ![Contrast button hover](documentation/contrast-btn-hover.png) ![contrast text](documentation/contrast-text.png)
-
-As the site relies on colour to display to the user whether an answer is correct or incorrect, I was interested to see what this would look like for someone with red/green colour blindness. I used the chrome extension [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to be able to see what someone with red/green colour blindness would see.
-
-In a future implementation I think it would be a great accessibility feature to also add a symbol such as a tick or cross on the answer button to enable people who are colour blind to also be able to access the quiz easier. Each of the images below have whether they are correct/incorrect in the name. Can you tell which one is which?
-
-![Colour blindness (red/green) correct answer](documentation/rg-colour-blind-correct.png)
-![Colour blindness (red/green) incorrect answer](documentation/rg-colour-blind-incorrect.png)
+![Contrast Button](assets/readme-images/button-hover.gif)
 
 - - -
 
-## Technologies Used
+### Technologies Used
 
-### Languages Used
+#### Languages:
 
-HTML, CSS, Javascript
-
-### Frameworks, Libraries & Programs Used
+HTML, CSS only.
 
 * [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
@@ -219,29 +195,23 @@ HTML, CSS, Javascript
 
 * [GitPod](https://gitpod.io/) - IDE used to create the site.
 
+* [GithubPages](https://pages.github.com/) - Hosts the deployed website
+
 * [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 
-* [jQuery](https://jquery.com/) - A JavaScript library.
-
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
-
-* [TinyPNG](https://tinypng.com/) To compress images
-
-* [Birme](https://www.birme.net/) To resize images and convert to webp format.
 
 * [Favicon.io](https://favicon.io/) To create favicon.
 
 * [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
-* [Shields.io](https://shields.io/) To add badges to the README
-
-* [Open Trivia DataBase](https://opentdb.com/) - API used for the trivia questions.
-
-* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) - a google chrome extension to enable you to view JSON as raw data or parsed.
-
-* [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would see it.
-
 * [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
+
+* [ChatGPT](https://chat.openai.com/auth/login) - AI Large Language Model used to generate fake customer testimonials and photographer bio
+
+* [FakeNameGenerator](https://www.fakenamegenerator.com/) - Generates random full profile of a fake person
+
+* [MOV to GIF](https://cloudconvert.com/mov-to-gif) - to generate gifs from screen recordings
 
 - - -
 
