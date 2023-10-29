@@ -283,19 +283,23 @@ footer a:hover {
 
 /* ################ GALLERY PAGE ########################################## */
 
-.image-rows {
+.image-gallery {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 5px;
+    justify-content: left;
+    gap: 5px; 
 }
 
 /* setup 1 column - expand in media query */
-.image-column {
-    flex: 100%;
-    max-width: 100%;
-    padding: 0 5px;
-    display: inline-block;
-    overflow: hidden;
+.image-gallery > img {
+    flex-basis: 150px;
+    object-fit: cover;
+    flex-grow: 1;
+    width: 200px;
+    height: 100%
+    vertical-align: middle;
+    border-radius: 5px;
+    position: relative;
 }
 
 .image-column img {

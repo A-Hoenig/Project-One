@@ -3,6 +3,7 @@
 <a href="https://github.com/A-Hoenig/Project-One">
     <img src="assets/favicon/logo.png" alt="Logo" width="80" height="80">
   </a>
+
 # William Cooke Photography Site
 
 ![Summary of Site on different screens](assets/readme-images/am-i-res1.jpg)
@@ -75,9 +76,6 @@ The finished site is hosted with gitpages under:
   </ol>
 </details>
 
-- - -
-
-
 ## User Experience (UX)
 
 To ease navigation, standard practices were used to allow the visitor quick access to the site pages via a Navigation bar. 
@@ -87,7 +85,8 @@ In keeping with the 'mobile first' philosophy, on smaller screens the Navbar is 
 Other elements such as the Photographers signature, teh contact button and copyright info are all dynamically sized to make full use of the available screen realestate.
 
 hover events are utilized thoughout to give feedback to the user that they are interacting with a clickable button.
-- - -
+
+Bold Font in the navigation bar visibly informs the user which page they are on.
 
 ## Design
 
@@ -98,7 +97,7 @@ Thte color #fafafa was used for text and button elements to reduce teh stark con
 
 ### Typography
 
-2 Fonts re used on the site for simplicity. 
+2 Fonts are used on the site for minimalist design. 
 
 <a href="https://fonts.google.com/specimen/Montserrat?query=montserrat">Montserrat</a> Used for all site text and headings.
 
@@ -125,7 +124,7 @@ Wireframes were created for mobile, tablet and desktop using balsamiq.
 
 #### The Home Page
 
-The home page serves as the landing page and aims to impress the visitor with a striking studio portrait image that fills tehe screen as much as possible on a minimal interface. The bold white text instantly informs the visitor what the ppurpose of the site is.
+The home page serves as the landing page and aims to impress the visitor with a striking studio portrait image that fills the screen on a minimal interface. The bold white text instantly informs the visitor what the purpose of the site is.
 
 ![Home page image](assets/readme-images/screenshot-home.jpg)
 
@@ -137,11 +136,11 @@ A single white centered arrow invites the user to scroll down to view the next s
 
 ![About Page image](assets/readme-images/screenshot-about.jpg)
 
-The about section give a self portrait of the Photographer and his welcome text to invite you in and share his passion. The text dynamically adjusts around the circular photo on larger screens.
+The about section shows a self portrait of the Photographer and his welcome text to invite you in and share his passion. The text dynamically adjusts around the circular photo on larger screens.
 
 #### The Gallery Page
 
-The gallery page is once again designed to put the pictures first. Only minimal margins are used to allow maximum content. Media queries dnamically adjust the numbe rof columns as more screensize becomes available. For phone displays only a single colum is used with each picture taking up the full width. On teh largest screen, 4 columns are used to fill the screen with images.
+The gallery page is once again designed to put the pictures first. Only minimal margins are used to allow maximum content. Media queries dynamically adjust the number of columns as more screensize becomes available. For phone displays only a single column is used with each picture taking up the full width. On the largest screen, 4 columns are used to fill the screen with images.
 
 A simple white border is used as a mouse over effect to highlight a specific picture the user is interested in.
 
@@ -149,13 +148,13 @@ A simple white border is used as a mouse over effect to highlight a specific pic
 
 #### The Testimonials Page
 
-THis page uses a marquee effect of vertically scrolling text to showcase previous customers feedback. The text is scolled in a simple transparent frame that dynamically resizes for screen realestate.
+This page uses a marquee effect of vertically scrolling text to showcase previous customers feedback. The text is scolled in a simple transparent frame that dynamically resizes for screen realestate.
 
 ![Testimonials Page Image](assets/readme-images/screenshot-testimonials.jpg)
 
 #### The Contact Page
 
-The contact form invites the user to fill in their details and select what type of possible photoshoot they might be interested in. The form dynamically resizes to teh left on larger screens to keep the interface manageable. The same background is used as throughout the site.
+The contact form invites the user to fill in their details and select what type of photoshoot they might be interested in. The form dynamically resizes to the left on larger screens to keep the interface manageable. The same form background styling is used as throughout the site.
 
 ![Contact Page image](assets/readme-images/screenshot-contact.jpg)
 
@@ -164,10 +163,11 @@ The contact form invites the user to fill in their details and select what type 
 Future developement of the site would include:
 
 1. Clickable images in the gallery to present a photo on full screen.
-2. Fullscreen display would then add left and right arrows to allow the user to step through the images
-3. Dynamic effects and display of the pop up menu should be animated to make the transition less abrupt and convey a further sense of prefessionalism
+2. Left and right arrows to allow the user to step through the images
+3. Dynamic effects and display of the pop up menu should be animated to make the transition less abrupt and convey a further sense of prefessionalism.
+4. Automated slide show of a collection of lading images to offer some variety on the main homepage.
 
-### Accessibility
+## Accessibility
 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
 
@@ -179,9 +179,7 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 ![Contrast Button](assets/readme-images/button-hover.gif)
 
-- - -
-
-### Technologies Used
+## Technologies Used
 
 #### Languages:
 
@@ -214,8 +212,6 @@ HTML, CSS only.
 * [MOV to GIF](https://cloudconvert.com/mov-to-gif) - to generate gifs from screen recordings
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-- - -
 
 ## Deployment & Local Development
 
@@ -253,17 +249,22 @@ To clone the repository:
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-- - -
 
 ## Testing
 
 ### Validator Testing
 
 #### HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 
 #### CSS
-  - No major errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No major errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+
+  a single parse error is returned that could not be resolved. Research into the correct syntax of the circle() porperty (used to align the text around the circular image in the about section) indicates the correct use of the property. This is possibly an issue with the validator itself. Nevertheless, the instruction works as intended.
+
+  ![CSS Validator Parse Error](assets/readme-images/css-error.png)
+
+
 
 ### Accessibility
 
@@ -273,11 +274,16 @@ An accessibility score of 100 was achieved when anaylsing the site using Google 
 
 
 
-The site was tested on three different browsers for functionality:
+### Browser Compatibility
 
-1. Chrome
-2. Opera
-3. Safari
+The site was tested on three most popular browsers for functionality:
+
+![Most Popular Browsers](assets/readme-images/popular-browsers.png)
+
+The only issue regarding browser support was found with safari. On both desktop and mobile versions of Safari, the marquee scrolling feature used in the testimonials page is a little rough and does not scroll smooth. On all other broswers, the feature rendered with no issues.
+
+ <pre>|       SAFARI        |         CHROME         |          EDGE           |</pre>
+![Safari rough scroll](assets/readme-images/scroll.gif)
 
 
 ### Known Bugs
@@ -309,15 +315,49 @@ As the JavaScript modules of the Code Institute Diploma did not cover local stor
 
 * I used this [video tutorial](https://www.youtube.com/watch?v=jfOv18lCMmw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=10) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) to learn how to insert the local storage into the high scores page.
 
-### Content
+<!-- IMAGE-CREDITS -->
+## Image Credits
 
-All questions for my site were pulled from [The Open Trivia Database](https://opentdb.com/) using their API.
+All images are sourced from stock image sites (pexels, unsplash, pixabay) and are license free.
+<br>
+Acknowlegements to the original photographer listed below:
 
-All other content for the site, such as introduction messages and instructions were written by myself.
+| Image Name    | License | Originator | Link |
+| ------------- | :---: | :--- | :--- |
+| portrait1.jpg | pexels | Ali Pazani | https://www.pexels.com/photo/woman-wearing-orange-sweater-2613260/ |
+| portrait2.jpg | pexels | Ali Pazani | https://www.pexels.com/photo/woman-wearing-brown-fur-beanies-and-white-and-balck-top-2681751/ |
+| portrait3.jpg | pexels | Ali Pazani | https://www.pexels.com/photo/woman-in-grey-long-sleeved-shirt-2787341/ |
+| portrait4.jpg | pexels | Arsham Haghani | https://www.pexels.com/photo/photo-of-woman-closing-her-eyes-3429877/ |
+| portrait5.jpg | pexels | Bruno Salvadori | https://www.pexels.com/photo/light-fashion-person-red-2330169/ |
+| portrait6.jpg | pexels | Collis | https://www.pexels.com/de-de/foto/graustufen-seitenansicht-portratfoto-des-mannes-der-mit-geschlossenen-augen-aufwirft-3031397/ |
+| portrait7.jpg | pexels | Marlon Schmeiski | https://www.pexels.com/photo/woman-standing-next-to-yellow-wall-3839904/ |
+| portrait8.jpg | pexels | George Desipris | https://www.pexels.com/de-de/foto/graustufenfoto-des-mannes-mit-bart-818261/ |
+| portrait9.jpg | pexels | Guilherme Almeida | https://www.pexels.com/de-de/foto/1858175/ |
+| portrait10.jpg | pexels | Gusher Gill | https://www.pexels.com/photo/portrait-of-woman-in-traditional-clothing-and-with-henna-tattoos-18633023/ |
+| portrait11.jpg | pexels | Hywel Jones | https://www.pexels.com/photo/attractive-woman-wearing-white-top-2744193/ |
+| portrait12.jpg | pexels | Italo Melo | https://www.pexels.com/de-de/foto/portratfoto-des-lachelnden-mannes-mit-gekreuzten-armen-die-vor-der-weissen-wand-stehen-2379004/ |
+| portrait13.jpg | pexels | Arsham Haghani | https://www.pexels.com/photo/photo-of-woman-with-short-hair-3445218/ |
+| portrait14.jpg | pexels | Moose Photos | https://www.pexels.com/photo/woman-wearing-pink-collared-half-sleeved-top-1036623/ |
+| portrait15.jpg | pexels | Olena Bohovyk | https://www.pexels.com/photo/grayscale-photo-of-man-holding-round-mirror-3635872/ |
+| portrait16.jpg | pexels | Pixabay | https://www.pexels.com/de-de/foto/graustufenfoto-der-frau-im-schwarzen-neckholder-kleid-mit-u-ausschnitt-60712/ |
+| portrait17.jpg | pexels | Samad Ismayilov | https://www.pexels.com/photo/woman-wearing-black-scoop-neck-top-735552/ |
+| portrait18.jpg | pexels | Spencer Selover | https://www.pexels.com/de-de/foto/mann-der-t-shirt-mit-der-rechten-hand-nahe-wange-tragt-428333/ |
+| portrait19.jpg | pexels |  Gustavo Santana| https://www.pexels.com/de-de/foto/mann-mit-zigarette-im-mund-1933873/ |
+| portrait20.jpg | pexels | Vitaly Gorbachev | https://www.pexels.com/zh-tw/photo/18652728/ |
+| photographer.jpg | pexels | Rockerzzz | https://www.pexels.com/de-de/foto/mann-fotografiert-vor-camea-1265718/ |
+| testimonials-bg | unsplash | Arsham Haghani | https://unsplash.com/photos/woman-in-black-v-neck-shirt-Ef3AOkt6hHg |
+| contact-bg | pixabay | Krivitskiy | https://pixabay.com/de/photos/portrait-m%C3%A4dchen-studio-weiblich-4181643/ |
 
-### Media
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[Page background image of a pub](https://pixabay.com/photos/bar-pub-cafe-establishment-stools-2209813/)
+<!-- CONTACT -->
+## Contact
+
+Alex Hönig -  LimeyDeveloper@pm.me
+
+Project Link: [https://github.com/A-Hoenig/Project-One/tree/main](https://github.com/A-Hoenig/Project-One/tree/main)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Acknowledgments
 
