@@ -424,7 +424,7 @@ form input {
     /* create equal grid of 3 to space burger, title and contact link evenly */
     header {
         display: inline-grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 25% 50% 253%;
     }
 
     #large-contact-button {
