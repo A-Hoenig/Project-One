@@ -263,18 +263,73 @@ To clone the repository:
 
   ![CSS Validator Parse Error](assets/readme-images/css-error.png)
 
-### Manual Testing
+## Manual Testing
+
+### HOME PAGE
+
 | Feature        | Expect | Action | Result |
 | :-------------- | :------ | :------ | :------ |
-|responsive site|elements resize when browser window changes|resizing tested on all browsers|dynamic elements and media queries work as expected|
-|external links open in new tab|new tabs opens when clicked|tested on all browsers and iphone|works as expected|
-|click burger to show nav bar|nav bar is displayed below burger icon|tested on all browsers|works as expected|
-|nav links take user to selected page|responsive links when clicked switch to page|tested on all browsers|works as expected|
-|click envelope to open contact page|click takes user to contact page|tested on all browsers|works as expected|
-|interactive mouse over|all clickable elements give user feedback|checked on all browsers|works as expected on non touch devices|
+|**GENERAL TESTS** |
+|Layout|Layout dynamically changes based on screen size|tested on iphone and all desktop browsers|all elements shift and resize as expected|
+|Responsiveness|elements resize when browser window changes|resizing tested on selected browsers|dynamic elements and media queries work as expected|
+|Internal Links|BurgerMenu|On small screens burger menu click displays nav bar|nav bar shos up and links work|
+|Internal Links|NAV bar elements link to correct page|checked on selected browsers and iPhone|All links work and point to correct page|
+|Mouse Over events|NAV elements highlight when user hovers on them|tested on desktop browsers|Works as expected|
+|Nav Bar link highlight|correct page (Home) is highlighted|checked on deployed site|displayed correctly|
+|Nav bar burger icon|nav bar is displayed below burger icon|tested on all browsers|works as expected|
+|**PAGE SPECIFIC TESTS** |
+|About section|dynamic resizing of intro text on large screens | tested on selected browsers | works as expected |
+
+### GALLERY PAGE
+
+| Feature        | Expect | Action | Result |
+| :-------------- | :------ | :------ | :------ |
+|**GENERAL TESTS** |
+|Layout|Layout dynamically changes based on screen size|tested on iphone and all desktop browsers|all elements shift and resize as expected|
+|Responsiveness|elements resize when browser window changes|resizing tested on selected browsers|dynamic elements and media queries work as expected|
+|Internal Links|BurgerMenu|On small screens burger manu click displays nav bar|nav bar shos up and links work|
+|Internal Links|NAV bar elements link to correct page|checked on selected browsers and iPhone|All links work and point to correct page|
+|Mouse Over events|NAV elements highlight when user hovers on them|tested on desktop browsers|Works as expected|
+|Nav Bar link highlight|correct page (Gallery) is highlighted|checked on deployed site|displayed correctly|
+|Nav bar burger icon|nav bar is displayed below burger icon|tested on all browsers|works as expected|
+|**PAGE SPECIFIC TESTS** |
+|Aspect ratios|Photos Display correctly|tested on selected browsers|photos look good even when resizing window|
+|Gallery Layout|layout correctly adjusts|tested on all window sizes on 6k screen|works as intended (large screen not enough photos to fill page|
+|Picture Highlighting|mouse over highlights picture|testes on desktop browsers|works as expected|
+|Photo centering|cropped pictures centered|check no photos are left or right justified|all look good|
+
+### TESTIMONIALS PAGE
+
+| Feature        | Expect | Action | Result |
+| :-------------- | :------ | :------ | :------ |
+|**GENERAL TESTS** |
+|Layout|Layout dynamically changes based on screen size|tested on iphone and all desktop browsers|all elements shift and resize as expected|
+|Responsiveness|elements resize when browser window changes|resizing tested on selected browsers|dynamic elements and media queries work as expected|
+|Internal Links|BurgerMenu|On small screens burger menu click displays nav bar|nav bar shos up and links work|
+|Internal Links|NAV bar elements link to correct page|checked on selected browsers and iPhone|All links work and point to correct page|
+|Mouse Over events|NAV elements highlight when user hovers on them|tested on desktop browsers|Works as expected|
+|Nav Bar link highlight|correct page (Testimonials) is highlighted|checked on deployed site|displayed correctly|
+|Nav bar burger icon|nav bar is displayed below burger icon|tested on all browsers|works as expected|
+|**PAGE SPECIFIC TESTS** |
 |marquee testimonials|testimonial page displays all feedback elements as vertical scrolling text|tested on all browsers|mostly works, Safari scrolling is rough|
+|marquee testimonials|testimonial section resizes with window|tested on all browsers|works as expected dynamically|
+
+### CONTACT PAGE PAGE
+
+| Feature        | Expect | Action | Result |
+| :-------------- | :------ | :------ | :------ |
+|**GENERAL TESTS** |
+|Layout|Layout dynamically changes based on screen size|tested on iphone and all desktop browsers|all elements shift and resize as expected|
+|Responsiveness|elements resize when browser window changes|resizing tested on selected browsers|dynamic elements and media queries work as expected|
+|Internal Links|BurgerMenu|On small screens burger menu click displays nav bar|nav bar shos up and links work|
+|Internal Links|NAV bar elements link to correct page|checked on selected browsers and iPhone|All links work and point to correct page|
+|Mouse Over events|NAV elements highlight when user hovers on them|tested on desktop browsers|Works as expected|
+|Nav Bar link highlight|off as contact page has own link and is not displayed|checked on deployed site|displayed correctly|
+|Nav bar burger icon|nav bar is displayed below burger icon|tested on all browsers|works as expected|
+|**PAGE SPECIFIC TESTS** |
 |user form submittable|user can send request data and sees what was recieved server side|tested with Chrome|works as expected|
 |user form text entry validation|required text entry and data format is set|leaving blank or not entering email is flagged|works as expected|
+|user form formatting|form resizes dynamically to left on large screens|ltested on all browsers|works as expected|
 
 <p align="right">(<a href="#contents">back to top</a>)</p>
 
