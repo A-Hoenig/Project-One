@@ -410,7 +410,7 @@ form input {
 /* ########################### MEDIA QUERIES #################################*/
 /* ###########################################################################*/
 
-/* Media query: tablets and larger (768px and up) */
+/* Media query: tablets and larger (350px and up) */
 /* start text around bio foto circle early */
 @media screen and (min-width: 350px) {
 
@@ -419,6 +419,7 @@ form input {
     }
 }
 
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
     /* create equal grid of 3 to space burger, title and contact link evenly */
@@ -438,6 +439,11 @@ form input {
     /* increase size of Webpage Title*/
     header h1 {
         font-size: 1.5em;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
     }
 
     /* hide the small envelope button on large screens */
@@ -534,10 +540,6 @@ form input {
         display: none;
     }
 
-    header {
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-    }
 
     nav {
         /* position: unset; */
