@@ -32,7 +32,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This website was built for a hypothetical client interested in showcasing his studio photography work. His express wishes were for a clean professional looking site that is easy to navigate and puts huis work front and center. He also provided a short bio he wanted included on the site and wished for a contact form to be able to generate a list of potential clients. Finally he provided a list of previous customer's feedback to be added on a seperate page as a testimonials section.
+This website was built for a hypothetical client interested in showcasing his studio photography work. His express wishes were for a clean professional looking site that is easy to navigate and puts his work front and center. He also provided a short bio he wanted included on the site and wished for a contact form to be able to generate a list of potential clients. Finally, he provided a list of previous customer's feedback to be added on a seperate page as a testimonials section.
 
 In summary the site should contain these basic sections:
 
@@ -61,30 +61,7 @@ The finished site is hosted with gitpages under:
 
 <br>
 <a href="https://a-hoenig.github.io/Project-One/">William Cooke Photography</a>
-
-
 <br/>
-
-
-## CONTENTS
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#user-experience">User Experience</a></li>
-    <li><a href="#design">Design</a></li>
-    <li><a href="#technologies-used">Technologies</a></li>
-    <li><a href="#repository">Deployment</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#image-credits">Image Credits</a></li>
-    <li><a href="#testing">Testing</a></li>
-    <li><a href="#accessibility">Accessibility</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
 ## User Experience
 
@@ -92,9 +69,9 @@ To ease navigation, standard practices were used to allow the visitor quick acce
 
 In keeping with the 'mobile first' philosophy, on smaller screens the Navbar is consolidated into a 'menu burger icon' that presents a drop down view of the navigation bar when pressed.
 
-Other elements such as the Photographers signature, teh contact button and copyright info are all dynamically sized to make full use of the available screen realestate.
+Other elements such as the Photographer's signature, the contact button and copyright info are all dynamically sized to make full use of the available screen realestate.
 
-hover events are utilized thoughout to give feedback to the user that they are interacting with a clickable button.
+Hover events are utilized thoughout to give feedback to the user that they are interacting with a clickable button.
 
 Bold Font in the navigation bar visibly informs the user which page they are on.
 
@@ -103,7 +80,7 @@ Bold Font in the navigation bar visibly informs the user which page they are on.
 ### Colour Scheme
 
 The web interface was deliberately chosen with a monochrome dark grey and white look to offset the interface and provide a contrast to the pictures being presented.
-Thte color #fafafa was used for text and button elements to reduce teh stark contrast of pure white on black.
+Tht color #fafafa was used for text and button elements to reduce the stark contrast of pure white on black.
 
 ### Typography
 
@@ -113,7 +90,7 @@ Thte color #fafafa was used for text and button elements to reduce teh stark con
 
 ![Montserrat Font Example](assets/readme-images/montserrat-sample.png)
 
-<a href="https://fonts.google.com/specimen/Freehand?query=freehand">Freehand</a> used only for the Site Title and the photographers signature.
+<a href="https://fonts.google.com/specimen/Freehand?query=freehand">Freehand</a> Used only for the Site Title and the photographers signature.
 
 ![Freehand Font Example](assets/readme-images/freehand-sample.png)
 
@@ -122,7 +99,7 @@ Thte color #fafafa was used for text and button elements to reduce teh stark con
 
 ### Wireframes
 
-Wireframes were created for mobile, tablet and desktop using balsamiq.
+Wireframes were created for mobile, tablet and desktop using Balsamiq.
 
 ![Home Page](assets/readme-images/mockup-home.png)
 ![About Section](assets/readme-images/mockup-about.png)
@@ -144,7 +121,7 @@ The home page serves as the landing page and aims to impress the visitor with a 
 
 ![Home page image](assets/readme-images/screenshot-home.jpg)
 
-The navigation bar and footer are fixed to keep the minimal site controls always visible. 
+The navigation bar and footer are fixed to keep the site controls always visible. 
 
 A single white centered arrow invites the user to scroll down to view the next section - in this case the about summary of the photographer.
 
@@ -158,7 +135,7 @@ The about section shows a self portrait of the Photographer and his welcome text
 
 #### The Gallery Page
 
-The gallery page is once again designed to put the pictures first. Only minimal margins are used to allow maximum content. Media queries dynamically adjust the number of columns as more screensize becomes available. For phone displays only a single column is used with each picture taking up the full width. On the largest screen, 4 columns are used to fill the screen with images.
+The gallery page is designed to put the pictures first on a clean well ordered canvas. Only minimal margins are used to allow maximum content. The columns dynamically adjust using HTML flex properties to adjust to all screen sizes. For phone displays only a single column is used with each picture taking up the full width. 
 
 A simple white border is used as a mouse over effect to highlight a specific picture the user is interested in.
 
@@ -183,15 +160,15 @@ The contact form invites the user to fill in their details and select what type 
 Future developement of the site would include:
 
 1. Clickable images in the gallery to present a photo on full screen.
-2. Left and right arrows to allow the user to step through the images
-3. Dynamic effects and display of the pop up menu should be animated to make the transition less abrupt and convey a further sense of prefessionalism.
-4. Automated slide show of a collection of lading images to offer some variety on the main homepage.
+2. Left and right arrows to allow the user to step through the images.
+3. Dynamic effects and display of the pop up menu should be animated to make the transition less abrupt and convey a further sense of professionalism.
+4. Automated slide show of a collection of landing images to offer some variety on the main homepage.
 
 <p align="right">(<a href="#contents">back to top</a>)</p>
 
 ## Accessibility
 
-I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been achieved by:
 
 * Using semantic HTML.
 * Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
@@ -221,17 +198,17 @@ HTML, CSS only.
 
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-* [Favicon.io](https://favicon.io/) To create favicon.
+* [Favicon.io](https://favicon.io/) To create the favicon.
 
 * [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
 * [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
 
-* [ChatGPT](https://chat.openai.com/auth/login) - AI Large Language Model used to generate fake customer testimonials and photographer bio
+* [ChatGPT](https://chat.openai.com/auth/login) - AI Large Language Model used to generate fake customer testimonials and photographer bio.
 
-* [FakeNameGenerator](https://www.fakenamegenerator.com/) - Generates random full profile of a fake person
+* [FakeNameGenerator](https://www.fakenamegenerator.com/) - Used to generate random profile of a fake person.
 
-* [MOV to GIF](https://cloudconvert.com/mov-to-gif) - to generate gifs from screen recordings
+* [MOV to GIF](https://cloudconvert.com/mov-to-gif) - used to generate gifs from screen recordings.
 
 <p align="right">(<a href="#contents">back to top</a>)</p>
 
@@ -239,9 +216,9 @@ HTML, CSS only.
 
 ### Deployment
 
-The site is deployed using GitHub Pages - [William Cooke Photography](https://a-hoenig.github.io/Project-One/index.html).
+The site is deployed using GitHub pages - [William Cooke Photography](https://a-hoenig.github.io/Project-One/index.html).
 
-To Deploy the site using GitHub Pages:
+To deploy the site using GitHub pages:
 
 1. Login (or signup) to Github.
 2. Go to the repository for this project, [A-Hoenig/Project-One](https://github.com/A-Hoenig/Project-One).
@@ -282,7 +259,7 @@ To clone the repository:
 #### CSS
   - No major errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
-  a single parse error is returned that could not be resolved. Research into the correct syntax of the circle() porperty (used to align the text around the circular image in the about section) indicates the correct use of the property. This is possibly an issue with the validator itself. Nevertheless, the instruction works as intended.
+  a single parse error is returned that could not be resolved. Research into the correct syntax of the circle() property (used to align the text around the circular image in the about section) indicates the correct use of the property. Nevertheless, the instruction works as intended.
 
   ![CSS Validator Parse Error](assets/readme-images/css-error.png)
 
@@ -317,7 +294,7 @@ tested manually as well as with Am I Responsive Website
 
 ### Accessibility
 
-An accessibility score of 100 was achieved when anaylsing the site using Google Chrome Dev TGools Lighthouse.
+An accessibility score of 100 was achieved when anaylsing the site using Google Chrome Dev Tools Lighthouse.
 
 ![Chrome Lighthouse Results](assets/readme-images/lighthouse-result.png)
 
@@ -339,7 +316,7 @@ The only issue regarding browser support was found with safari. On both desktop 
 
 ### Known / Fixed Bugs
 
-* When expanding the browser window the burger icon jump imperceptibily whe passing the 768px screen width media query. This is most likely due to the fact that the header element is switched to a different grid spacing and the align-items: center; overrides the burger-label top:; property.
+* When expanding the browser window the burger icon jumps imperceptibily whe passing the 768px screen width media query. This is most likely due to the fact that the header element is switched to a different grid spacing and the align-items: center; overrides the burger-label top:; property. -- **SOLVED** by adjusting the percentage sizes of the header grid.
 
 * on the gallery page when displaying a 2 column grid, the flex property aligning the individual photos leaves a blank slot after the 5th photo. (start of a new div) - **SOLVED**
 
@@ -353,6 +330,7 @@ A solution was implemented using flex grow on a single div that automativally ar
 
 * I used the Code Institute - Love Running walkthrough project as the basis for the pop up nav bar.
 * The gallery bug fix was impelementd using this blog post: <a href="https://blog.logrocket.com/responsive-image-gallery-css-flexbox/">How to create a responsive image gallery with CSS flexbox</a> )
+* TheQuizArms Pub Quiz project README was recommended as a baseline for this README. many thanks. <a href="https://github.com/kera-cudmore/TheQuizArms/blob/main/README.md">The Quiz Arms README.md</a>
 
 
 <!-- IMAGE-CREDITS -->
@@ -404,7 +382,7 @@ Alex Hönig -  LimeyDeveloper@pm.me
 
 Project Link: [https://github.com/A-Hoenig/Project-One/tree/main](https://github.com/A-Hoenig/Project-One/tree/main)
 
-### Acknowledgments
+## Acknowledgments
 
 I would like to acknowledge the following people:
 
